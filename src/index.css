@@ -7,6 +7,10 @@
     @apply w-full
   }
 
+  .section-eduskill {
+    @apply container ml-[85px] mr-[56.79px]
+  }
+
   .section {
     @apply container mx-[85px]
   }

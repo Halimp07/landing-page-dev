@@ -1,4 +1,4 @@
-import {  Footer, Eduskill, Benefit, Marketing, Bootcamp } from "./index";
+import {  Footer, Eduskill, Benefit, Marketing, Bootcamp, Contact } from "./index";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
         {/* <Benefit /> */}
         <Marketing />
         <Bootcamp />
+        <Contact />
         <Footer />
     </div>
   );

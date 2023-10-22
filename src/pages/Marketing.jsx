@@ -2,8 +2,9 @@ import React from "react";
 
 const Marketing = () => {
   return (
-    <div className="section mb-[50px]">
-      
+    <div className=" mb-[50px] flex justify-center">
+      <div className="section">
+
       <div className="flex">
         <div className="h-72 flex-col justify-start items-start gap-6 inline-flex">
           <div className="mr-20 text-orange-500 text-3xl font-bold font-['Poppins'] leading-10 tracking-wide">
@@ -46,6 +47,7 @@ const Marketing = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

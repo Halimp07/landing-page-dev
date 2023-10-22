@@ -1,22 +1,30 @@
-// Section-1
+// Section_1
 import eduskill_logo from "@/assets/section_1/eduskill_logo.png";
 import hero_right from "@/assets/section_1/hero_right.png";
 import logo_right from "@/assets/section_1/logo_right.png";
 
-// Section-2
+// Section_2
 import eduskill_left_logo from "@/assets/section_2/eduskill_left_logo.png";
 import check_benefit from "@/assets/section_2/check.png";
 
-// Export Section-1
+// Section_3
+import bootcamp1 from "@/assets/section_3/bootcamp_1.png"
+import bootcamp2 from "@/assets/section_3/bootcamp_2.png"
+import bootcamp3 from "@/assets/section_3/bootcamp_3.png"
+
+// Section_4
+import background from "@/assets/section_4/bg-overlay.png"
+
+// Export Section_1
 export const eduskill = [eduskill_logo];
 export const hero = [hero_right];
 export const logo = [logo_right];
 
-// Export Section-2
+// Export Section_2
 export const eduskill_left= [eduskill_left_logo];
 export const check = [check_benefit];
-// Export Section-2 Consultant
 
+// Export Section_2 Consultant
 export const consultant = [
   {
     id: 1,
@@ -59,3 +67,11 @@ export const consultant = [
     ],
   },
 ];
+
+// Export Section_3
+export const boot_1 = [bootcamp1];
+export const boot_2 = [bootcamp2];
+export const boot_3 = [bootcamp3];
+
+// Export Section_4
+export const bg_overlay = [background];
