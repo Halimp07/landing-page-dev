@@ -15,6 +15,12 @@ import bootcamp3 from "@/assets/section_3/bootcamp_3.png"
 // Section_4
 import background from "@/assets/section_4/bg-overlay.png"
 
+// Section_5
+import dropdown_button from  "@/assets/section_5/dropdown.svg"
+
+// Section_6
+import logo_footer from "@/assets/section_6/edu_head.png"
+
 // Export Section_1
 export const eduskill = [eduskill_logo];
 export const hero = [hero_right];
@@ -75,3 +81,9 @@ export const boot_3 = [bootcamp3];
 
 // Export Section_4
 export const bg_overlay = [background];
+
+// Export Section_5
+export const dropdown_btn = [dropdown_button];
+
+// Export Section_6
+export const eduskill_head = [logo_footer];

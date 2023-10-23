@@ -3,8 +3,10 @@ import { eduskill, hero, logo } from "@/Data";
 
 const Eduskill = () => {
   return (
-    <div className="w-full h-[592px] bg-[#B0E4DE]/40 flex justify-center">
-      <div className="section-eduskill ml-[85px] mr-[56.79px] flex justify-between">
+    <div className="w-full h-[592px] bg-[#B0E4DE]/40 ">
+      <div className="container mx-auto ">
+
+      <div className="flex  justify-between ">
         <div className="section-1 mt-[68px]">
           <div className="logo-eduskill">
             <img src={eduskill} alt="logo_eduskill" className="w-52 h-16" />
@@ -78,6 +80,7 @@ const Eduskill = () => {
         </div>
       </div>
         </div>
+      </div>
       </div>
     </div>
   );
