@@ -6,7 +6,7 @@ const Eduskill = () => {
     <div className="w-full h-[592px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
 
-      <div className="flex  justify-between ">
+      <div className="flex justify-between md:space-x-4">
         <div className="section-1 mt-[68px]">
           <div className="logo-eduskill">
             <img src={eduskill} alt="logo_eduskill" className="w-52 h-16" />
