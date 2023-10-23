@@ -6,6 +6,8 @@ import logo_right from "@/assets/section_1/logo_right.png";
 // Section_2
 import eduskill_left_logo from "@/assets/section_2/eduskill_left_logo.png";
 import check_benefit from "@/assets/section_2/check.png";
+import previous_btn from "@/assets/section_2/previous.svg";
+import next_btn from "@/assets/section_2/next.svg";
 
 // Section_3
 import bootcamp1 from "@/assets/section_3/bootcamp_1.png"
@@ -29,6 +31,9 @@ export const logo = [logo_right];
 // Export Section_2
 export const eduskill_left= [eduskill_left_logo];
 export const check = [check_benefit];
+export const prev = [previous_btn];
+export const next = [next_btn];
+
 
 // Export Section_2 Consultant
 export const consultant = [
