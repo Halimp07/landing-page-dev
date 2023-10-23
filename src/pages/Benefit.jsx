@@ -5,11 +5,12 @@ const Benefit = () => {
   return (
     <div className="w-full section bg-teal-400 my-[50px] mx-auto relative">
       <div className="w-full relative py-[40px] pr-[100px] overflow-hidden">
-        <div className="bg-orange-400 w-[65%] ml-[27.5rem] absolute left-0 top-0 h-full transform -skew-x-[30deg] z-10"></div>
+      <div className="bg-teal-400 h-[35px] w-full rotate-[105deg] absolute z-20 left-[44%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="bg-orange-400 w-[100%] md:ml-[41%] xl:ml-[50%] absolute left-0 top-0 h-full -skew-x-[15deg] z-10"></div>
         <div className="flex">
 
         </div>
-        <div className=" text-white text-3xl flex justify-end font-extrabold mr-10 font-['Inter'] capitalize leading-loose tracking-wide relative z-20">
+        <div className=" text-white text-[27px] flex justify-end font-extrabold mr-10 font-['Inter'] capitalize leading-loose tracking-wide relative z-20">
           Tenang, ada Eduskill Consultant!
         </div>
 
@@ -44,7 +45,7 @@ const Benefit = () => {
         ))}
       </div>
 
-      <div className="bg-teal-400  w-full py-[40px] pl-[100px] relative">
+      <div className="bg-teal-400 absolute w-full py-[40px] pl-[100px] top-0 left-0">
         <div className="pt-2.5 pb-2.5 left-0 top-0 absolute bg-white rounded-tr-full rounded-br-full flex-col justify-start items-start gap-2.5 inline-flex">
           <img className="w-20 h-6" src={eduskill_left} />
         </div>
