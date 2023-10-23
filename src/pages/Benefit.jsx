@@ -65,18 +65,22 @@ const Benefit = () => {
           </div>
           <div className="2xl:w-[1600px]  xl:w-[1324px] md:w-[1080px] sm:w-[700px] h-16 absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
             <div className="w-16 h-16 absolute  left-0">
+              <button>
               <img
                 src={prev}
                 alt=""
                 className="w-16 h-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               />
+              </button>
             </div>
             <div className="w-16 h-16 absolute right-0">
+              <button>
               <img
                 src={next}
                 alt=""
                 className="w-16 h-16 absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2"
               />
+              </button>
             </div>
           </div>
         </div>
