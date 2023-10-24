@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className="font-Inter">
         <Eduskill />
-        {/* <Benefit /> */}
+        <Benefit />
         <Marketing />
         <Bootcamp />
         <Contact />
