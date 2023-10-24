@@ -6,7 +6,7 @@ const App = () => {
         <Eduskill />
         {/* <Benefit /> */}
         <Marketing />
-        {/* <Bootcamp /> */}
+        <Bootcamp />
         {/* <Contact /> */}
         {/* <Faq />
         <Footer /> */}

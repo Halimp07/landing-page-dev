@@ -3,18 +3,18 @@ import { boot_1, boot_2, boot_3 } from "@/Data";
 const Bootcamp = () => {
   return (
     <div className="w-full bg-orange-200 bg-opacity-20 flex justify-center">
-      <div className="section my-[70px] flex-col gap-[50px] inline-flex">
-        <div className="h-24 flex-col justify-start items-start gap-2.5 inline-flex">
-          <div className="text-teal-700 text-4xl font-bold font-['Poppins'] leading-10 tracking-wide">
+      <div className="lg:section md:section lg:my-[70px] md:my-[70px] my-[30px] lg:mx-0 md:mx-0 mx-5 flex-col gap-[50px] inline-flex">
+        <div className="lg:h-24 md:h-24 h-full flex-col justify-start items-start lg:gap-2 md:gap-2 gap-0 inline-flex">
+          <div className="text-teal-700 lg:text-4xl md:text-4xl text-xl font-bold font-['Poppins'] lg:leading-10 md:leading-10 leading-7 tracking-wide">
             Bootcamp dan Course Menarik di Eduskill
           </div>
-          <div className="w-96 h-10 text-teal-600 text-3xl font-semibold font-['Poppins'] leading-10 tracking-wide">
+          <div className="w-96 h-10 text-teal-600 lg:text-3xl md:text-3xl text-lg  font-semibold font-['Poppins'] lg:leading-10 md:leading-10 leading-7 tracking-wide">
             Jadi Engineer Handal
           </div>
         </div>
 
-        <div className="flex space-x-5">
-          <div className="w-96 h-56 bg-white rounded-2xl shadow">
+        <div className="lg:flex md:flex lg:space-x-5 md:space-x-5 space-x-0">
+          <div className="lg:w-96 md:w-96 w-full h-56 bg-white rounded-2xl shadow">
             <div className="flex mt-[32px]">
               <img
                 className="ml-[56px] w-16"
