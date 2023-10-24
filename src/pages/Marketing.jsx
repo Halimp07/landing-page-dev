@@ -27,7 +27,7 @@ const Marketing = () => {
               <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold font-['Poppins'] leading-9 tracking-tight">
                 Real Cases, Real Projects
               </div>
-              <div className="lg:w-96 md:w-96 w-full text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-6 tracking-tight">
+              <div className="lg:w-96 md:w-96 w-full text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                 Etiam commodo eros a lacus placerat, eget porttitor
               </div>
