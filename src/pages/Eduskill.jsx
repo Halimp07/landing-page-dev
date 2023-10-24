@@ -15,7 +15,7 @@ const Eduskill = () => {
               />
             </div>
 
-            <div className="lg:w-[603px] md:w-[603px] w-full lg:mt-3 md:mt-3 mt-2 lg:text-start md:text-start text-start">
+            <div className="lg:w-[603px] md:w-[603px] w-full lg:mt-3 md:mt-3 mt-4 lg:text-start md:text-start text-start">
               <span className="text-black lg:text-6xl md:text-6xl text-lg font-extrabold font-[''] capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
@@ -47,39 +47,39 @@ const Eduskill = () => {
             </div>
           </div>
 
-          <div className="flex mt-[125px]">
-            <div className="w-[440px] relative">
+          <div className="flex lg:mt-[125px] md:mt-[125px] mt-[40px] lg:mx-0 md:mx-0 mx-[20px]">
+            <div className="lg:w-[440px] md:w-[440px] w-full relative">
               <div
-                className="relative flex items-end justify-start bg-contain bg-no-repeat rounded-3xl text-left h-[285px]"
+                className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left lg:h-[285px] md:h-[285px] h-[180px]"
                 style={{
                   backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.7), transparent), url(${hero})`,
                   backgroundPosition: "left 65px center",
                 }}
               >
-                <div className="absolute top-0 w-full h-[285px] bg-gradient-to-r from-orange-400 rounded-3xl"></div>
-                <div className="left-8 top-[90px] absolute text-white text-xl font-bold font-['Inter'] capitalize leading-7 tracking-tight">
+                <div className="absolute top-0 w-full lg:h-[285px] md:h-[285px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
+                <div className="lg:left-8 md:left-8 left-3 lg:top-[90px] md:top:[90px] top-[60px] absolute text-white lg:text-xl md:text-xl text-base lg:font-bold md:font-bold font-semibold font-[''] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-tight md:tracking-tight tracking-normal">
                   Dari gak percaya diri,
                   <br />
-                  <span className="font-semibold">
+                  <span>
                     hingga mampu <br />
                     menginspirasi
                   </span>
                 </div>
-                <div className="left-8 top-[220px] absolute">
-                  <span className="text-white text-base font-medium font-['Inter'] leading-tight tracking-tight">
+                <div className="lg:left-8 md:left-8 left-3 lg:top-[220px] md:top-[220px] top-[130px] absolute">
+                  <span className="text-white lg:text-base md:text-base text-sm font-medium font-[] lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Saatnya
                   </span>
-                  <span className="text-white text-base font-bold font-['Inter'] leading-tight tracking-tight">
+                  <span className="text-white lg:text-base md:text-base text-sm font-bold font-[] lg:leading-tight md:leading-tight leading-none tracking-tight">
                     {" "}
                     #MulaiUpskilling
                     <br />
                   </span>
-                  <span className="text-white text-base font-medium font-['Inter'] leading-tight tracking-tight">
+                  <span className="text-white lg:text-base md:text-base text-sm font-medium font-[] lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Bersama Eduskill
                   </span>
                 </div>
                 <img
-                  className="w-48 h-14 left-8 top-[20px] absolute"
+                  className="lg:w-48 md:w-48 w-28 lg:h-14 md:h-14 h-10 lg:left-8 md:left-8 left-3 top-[20px] absolute"
                   src={logo}
                 />
               </div>
