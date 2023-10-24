@@ -10,11 +10,11 @@ const Footer = () => {
             className="w-full lg:h-[283px] md:h-[283px] h-full absolute right-0 left-0 top-0"
             src={bg_overlay}
           />{" "}
-        <div className="lg:h-72 md:h-72 h-56 py-12 flex-col justify-center items-center gap-6 inline-flex">
-        <div className="lg:w-[830px] md:w-[830px] w-full text-center text-white lg:text-4xl md:text-4xl text-lg font-bold font-['Poppins'] leading-10 tracking-wide relative">
+        <div className="lg:h-72 md:h-72 h-56 xpy-12 flex-col justify-center items-center gap-6 inline-flex">
+        <div className="lg:w-[830px] md:w-[830px] w-full text-center text-white lg:text-4xl md:text-4xl text-base font-bold font-['Poppins'] lg:leading-10 md:leading-10 leading-7 tracking-wide relative">
               Yuk, Jadi Talenta Handal di Industri Digital Sekarang!{" "}
             </div>
-            <div className="px-6 lg:py-3 md:py-3 py-2 bg-teal-600 rounded-xl justify-center items-center gap-2.5 inline-flex relative">
+            <div className="px-6 lg:py-3 md:py-3 py-2 bg-teal-600 rounded-xl justify-center items-center lg:gap-2 md:gap-2 gap-0 inline-flex relative">
             <div className="text-center text-white g:text-lg md:text-lg text-base font-semibold font-['Poppins'] leading-9 tracking-tight">
                 <a href="http://linktr.ee/eduskill">
                   Mulai Sekarang!{" "}
