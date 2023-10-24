@@ -23,7 +23,7 @@ const Faq = () => {
             <div className="text-center text-emerald-800 lg:text-[34px] md:text-[34px] text-base font-bold font-['Poppins'] capitalize lg:leading-10 md:leading-10 leading-7 tracking-wide">
               Yang ingin kamu tahu seputar eduskill bootcamp{" "}
             </div>
-            <div className="w-96 h-6 text-center text-gray-400 lg:text-base md:text-base text-xs font-medium font-['Inter'] capitalize leading-snug tracking-tight">
+            <div className="lg:w-96 md:w-96 w-full h-6 text-center text-gray-400 lg:text-base md:text-base text-xs font-medium font-['Inter'] capitalize leading-snug tracking-tight">
               Yang ingin kamu tahu seputar eduskill bootcamp{" "}
             </div>
           </div>
