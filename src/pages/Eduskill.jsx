@@ -6,8 +6,8 @@ const Eduskill = () => {
     <div className="w-full h-[592px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
         <div className="lg:flex md:flex justify-between md:space-x-4">
-          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-2 lg:mx-0 md:mx-0 mx-[20px]">
-            <div className="logo-eduskill flex lg:justify-start md:justify-start justify-start relative">
+          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
+            <div className="logo-eduskill flex lg:justify-start md:justify-start justify-start mr-3">
               <img
                 src={eduskill}
                 alt="logo_eduskill"
@@ -39,7 +39,7 @@ const Eduskill = () => {
               </span>
             </div>
             <div className="lg:mt-6 md:mt-6 mt-3">
-              <div className="lg:w-52 md:w-52 w-40 h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
+              <div className="lg:w-52 md:w-52 w-[164px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
                 <div className="text-center text-white lg:text-lg md:text-lg text-base font-semibold font-[''] leading-9 tracking-tight">
                   <a href="http://linktr.ee/eduskill">Mulai Sekarang!</a>
                 </div>
