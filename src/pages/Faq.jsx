@@ -43,7 +43,7 @@ const Faq = () => {
                 <img
                   src={dropdown_btn}
                   alt="dropdown-button"
-                  className="lg:w-[19px] md:w-[19px] w-6 lg:h-3 md:h-3 h-5"
+                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
                 />
               </div>
             </div>
@@ -67,7 +67,7 @@ const Faq = () => {
                 <img
                   src={dropdown_btn}
                   alt="dropdown-button"
-                  className="lg:w-[19px] md:w-[19px] w-6 lg:h-3 md:h-3 h-5"
+                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
                 />
               </div>
             </div>
@@ -92,7 +92,7 @@ const Faq = () => {
                 <img
                   src={dropdown_btn}
                   alt="dropdown-button"
-                  className="lg:w-[19px] md:w-[19px] w-6 lg:h-3 md:h-3 h-5"
+                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
                 />
               </div>
             </div>
@@ -117,7 +117,7 @@ const Faq = () => {
                 <img
                   src={dropdown_btn}
                   alt="dropdown-button"
-                  className="lg:w-[19px] md:w-[19px] w-6 lg:h-3 md:h-3 h-5"
+                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
                 />
               </div>
             </div>
@@ -143,7 +143,7 @@ const Faq = () => {
                 <img
                   src={dropdown_btn}
                   alt="dropdown-button"
-                  className="lg:w-[19px] md:w-[19px] w-6 lg:h-3 md:h-3 h-5"
+                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
                 />
               </div>
             </div>
