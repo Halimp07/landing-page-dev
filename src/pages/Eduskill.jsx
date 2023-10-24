@@ -57,7 +57,7 @@ const Eduskill = () => {
                 }}
               >
                 <div className="absolute top-0 w-full lg:h-[285px] md:h-[285px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
-                <div className="lg:left-8 md:left-8 left-3 lg:top-[90px] md:top:[90px] top-[60px] absolute text-white lg:text-xl md:text-xl text-base lg:font-bold md:font-bold font-semibold font-[''] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-tight md:tracking-tight tracking-normal">
+                <div className="lg:left-8 md:left-8 left-3 lg:top-[90px] md:top:[90px] top-[40px] absolute text-white lg:text-xl md:text-xl text-base lg:font-bold md:font-bold font-semibold font-[''] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-tight md:tracking-tight tracking-normal">
                   Dari gak percaya diri,
                   <br />
                   <span>
@@ -65,7 +65,7 @@ const Eduskill = () => {
                     menginspirasi
                   </span>
                 </div>
-                <div className="lg:left-8 md:left-8 left-3 lg:top-[220px] md:top-[220px] top-[130px] absolute">
+                <div className="lg:left-8 md:left-8 left-3 lg:top-[220px] md:top-[220px] top-[120px] absolute">
                   <span className="text-white lg:text-base md:text-base text-sm font-medium font-[] lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Saatnya
                   </span>
@@ -79,7 +79,7 @@ const Eduskill = () => {
                   </span>
                 </div>
                 <img
-                  className="lg:w-48 md:w-48 w-28 lg:h-14 md:h-14 h-10 lg:left-8 md:left-8 left-3 top-[20px] absolute"
+                  className="lg:w-48 md:w-48 w-28 lg:h-14 md:h-14 h-10 lg:left-8 md:left-8 left-3 lg:top-5 md:top-5 top-1 absolute"
                   src={logo}
                 />
               </div>
