@@ -54,10 +54,11 @@ const Eduskill = () => {
                 style={{
                   backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.7), transparent), url(${hero})`,
                   backgroundPosition: "left 65px center",
+                  backgroundSize: "100% 100%",
                 }}
               >
                 <div className="absolute top-0 w-full lg:h-[285px] md:h-[285px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
-                <div className="lg:left-8 md:left-8 left-3 lg:top-[90px] md:top:[90px] top-[40px] absolute text-white lg:text-xl md:text-xl text-base lg:font-bold md:font-bold font-semibold font-[''] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-tight md:tracking-tight tracking-normal">
+                <div className="lg:left-8 md:left-8 left-3 lg:top-[90px] md:top:[90px] top-[45px] absolute text-white lg:text-xl md:text-xl text-base lg:font-bold md:font-bold font-semibold font-[''] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-tight md:tracking-tight tracking-normal">
                   Dari gak percaya diri,
                   <br />
                   <span>
@@ -65,7 +66,7 @@ const Eduskill = () => {
                     menginspirasi
                   </span>
                 </div>
-                <div className="lg:left-8 md:left-8 left-3 lg:top-[220px] md:top-[220px] top-[120px] absolute">
+                <div className="lg:left-8 md:left-8 left-3 lg:top-[220px] md:top-[220px] top-[125px] absolute">
                   <span className="text-white lg:text-base md:text-base text-sm font-medium font-[] lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Saatnya
                   </span>
