@@ -6,8 +6,8 @@ const Eduskill = () => {
     <div className="w-full h-[592px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
         <div className="lg:flex md:flex justify-between md:space-x-4">
-          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-10 mx-4">
-            <div className="logo-eduskill flex lg:justify-start md:justify-start justify-strat">
+          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-2 mx-4">
+            <div className="logo-eduskill flex lg:justify-start md:justify-start justify-start">
               <img
                 src={eduskill}
                 alt="logo_eduskill"
@@ -23,15 +23,15 @@ const Eduskill = () => {
                 Eduskill
               </span>
             </div>
-            <div className="mt-5">
-              <span className="text-black text-base font-normal font-[''] leading-loose tracking-tight">
+            <div className="mt-5 text-justify">
+              <span className="text-black text-base font-normal font-[''] lg:leading-loose md:leading-loose leading-none lg:tracking-tight">
                 Jadi
               </span>
-              <span className="text-black text-base font-bold font-[''] leading-loose tracking-tight">
+              <span className="text-black text-base font-bold font-[''] lg:leading-loose md:leading-loose leading-none lg:tracking-tight">
                 {" "}
                 #SelangkahdiDepan
               </span>
-              <span className="text-black text-base font-normal font-[''] leading-loose tracking-tight">
+              <span className="text-black text-base font-normal font-[''] lg:leading-loose md:leading-loose leading-none tracking-tight">
                 {" "}
                 kuasai digital skills dengan metode belajar yang fun!
                 <br />
