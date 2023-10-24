@@ -7,7 +7,7 @@ const Eduskill = () => {
       <div className="container mx-auto ">
         <div className="lg:flex md:flex justify-between md:space-x-4">
           <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-10">
-            <div className="logo-eduskill flex lg:justify-start md:justify-center justify-center">
+            <div className="logo-eduskill flex lg:justify-start md:justify-start justify-strat">
               <img
                 src={eduskill}
                 alt="logo_eduskill"
@@ -15,11 +15,11 @@ const Eduskill = () => {
               />
             </div>
 
-            <div className="lg:w-[603px] md:w-[603px] w-full mt-3 lg:text-start md:text-start text-center">
-              <span className="text-black lg:text-6xl md:text-6xl text-2xl font-extrabold font-[''] capitalize tracking-wide">
+            <div className="lg:w-[603px] md:w-[603px] w-full mt-3 lg:text-start md:text-start text-start">
+              <span className="text-black lg:text-6xl md:text-6xl text-base font-extrabold font-[''] capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
-              <span className="text-orange-500 lg:text-6xl md:text-6xl text-2xl  font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-orange-500 lg:text-6xl md:text-6xl text-base  font-extrabold font-[''] capitalize tracking-wide">
                 Eduskill
               </span>
             </div>
