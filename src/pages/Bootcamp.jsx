@@ -24,7 +24,7 @@ const Bootcamp = () => {
                 Kelas Frontend Engineering
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 mt-[14.57px] lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 text-base font-light leading-7 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-2 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
@@ -39,7 +39,7 @@ const Bootcamp = () => {
                 Kelas Full-Stack Web Development{" "}
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 mt-[14.57px] lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 text-base font-light leading-7 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-2 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
@@ -54,7 +54,7 @@ const Bootcamp = () => {
                 Kelas Artificial Intelligence (AI){" "}
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 mt-[14.57px] lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 text-base font-light leading-7 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-2 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
