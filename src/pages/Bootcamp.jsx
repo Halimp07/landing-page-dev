@@ -20,7 +20,7 @@ const Bootcamp = () => {
                 className="lg:ml-14 md:ml-14 ml-8 lg:w-16 md:w-16 w-14"
                 src={boot_1}
               />
-              <div className="ml-[16.93px] lg:w-32 md:w-32 w-full h-14 text-teal-500 text-lg font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
+              <div className="ml-[16.93px] w-full h-14 text-teal-500 text-lg font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
                 Kelas Frontend Engineering
               </div>
             </div>
@@ -35,7 +35,7 @@ const Bootcamp = () => {
                 className="lg:ml-14 md:ml-14 ml-8 lg:w-16 md:w-16 w-14"
                 src={boot_2}
               />
-              <div className="ml-[16.93px] lg:w-32 md:w-32 w-full h-14 text-teal-500 text-lg font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
+              <div className="ml-[16.93px] w-full h-14 text-teal-500 text-lg font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
                 Kelas Full-Stack Web Development{" "}
               </div>
             </div>
@@ -50,7 +50,7 @@ const Bootcamp = () => {
                 className="lg:ml-14 md:ml-14 ml-8 lg:w-16 md:w-16 w-14"
                 src={boot_3}
               />{" "}
-              <div className="ml-[16.93px] lg:w-32 md:w-32 h-14 text-teal-500 text-lg font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
+              <div className="ml-[16.93px] w-full h-14 text-teal-500 text-lg font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
                 Kelas Artificial Intelligence (AI){" "}
               </div>
             </div>
