@@ -6,7 +6,7 @@ const Eduskill = () => {
     <div className="w-full h-[592px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
         <div className="lg:flex md:flex justify-between md:space-x-4">
-          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-10">
+          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-10 mx-4">
             <div className="logo-eduskill flex lg:justify-start md:justify-start justify-strat">
               <img
                 src={eduskill}
@@ -16,10 +16,10 @@ const Eduskill = () => {
             </div>
 
             <div className="lg:w-[603px] md:w-[603px] w-full mt-3 lg:text-start md:text-start text-start">
-              <span className="text-black lg:text-6xl md:text-6xl text-base font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-black lg:text-6xl md:text-6xl text-lg font-extrabold font-[''] capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
-              <span className="text-orange-500 lg:text-6xl md:text-6xl text-base  font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-orange-500 lg:text-6xl md:text-6xl text-lg  font-extrabold font-[''] capitalize tracking-wide">
                 Eduskill
               </span>
             </div>
@@ -27,11 +27,11 @@ const Eduskill = () => {
               <span className="text-black text-base font-normal font-[''] leading-loose tracking-tight">
                 Jadi
               </span>
-              <span className="text-black text-base font-bold font-['Poppins'] leading-loose tracking-tight">
+              <span className="text-black text-base font-bold font-[''] leading-loose tracking-tight">
                 {" "}
                 #SelangkahdiDepan
               </span>
-              <span className="text-black text-base font-normal font-['Poppins'] leading-loose tracking-tight">
+              <span className="text-black text-base font-normal font-[''] leading-loose tracking-tight">
                 {" "}
                 kuasai digital skills dengan metode belajar yang fun!
                 <br />
@@ -40,8 +40,8 @@ const Eduskill = () => {
               </span>
             </div>
             <div className="mt-6">
-              <div className="w-52 h-14 px-6 py-3 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
-                <div className="text-center text-white text-lg font-semibold font-[''] leading-9 tracking-tight">
+              <div className="w-52 h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
+                <div className="text-center text-white lg:text-lg md:text-lg text-base font-semibold font-[''] leading-9 tracking-tight">
                   <a href="http://linktr.ee/eduskill">Mulai Sekarang!</a>
                 </div>
               </div>
