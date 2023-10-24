@@ -30,7 +30,7 @@ const Faq = () => {
         </div>
 
         <div className="w-full flex justify-center">
-          <div className="flex-col lg:w-full md:w-full lg:mx-0 md:mx-0 mx-[20px] gap-6 inline-flex">
+          <div className="flex-col lg:w-full md:w-full gap-6 inline-flex">
             <div
               className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-3 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
               onClick={toggleFaq1}
