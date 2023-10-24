@@ -5,7 +5,7 @@ const Bootcamp = () => {
     <div className="w-full bg-orange-200 bg-opacity-20 lg:flex md:flex lg:justify-center md:justify-center justify-start">
       <div className="lg:section md:section lg:my-[70px] md:my-[70px] my-[30px] lg:mx-0 md:mx-0 mx-5 flex-col lg:gap-[50px] md:gap-[50px] gap-0 inline-flex">
         <div className="lg:h-24 md:h-24 h-full flex-col justify-start items-start lg:gap-2 md:gap-2 gap-0 inline-flex">
-          <div className="text-teal-700 lg:text-4xl md:text-4xl text-xl font-bold font-['Poppins'] lg:leading-10 md:leading-10 leading-7 tracking-wide">
+          <div className="w-full text-teal-700 lg:text-4xl md:text-4xl text-xl font-bold font-['Poppins'] lg:leading-10 md:leading-10 leading-7 tracking-wide">
             Bootcamp dan Course Menarik di Eduskill
           </div>
           <div className="h-10 text-teal-600 lg:text-3xl md:text-3xl text-lg  font-semibold font-['Poppins'] lg:leading-10 md:leading-10 leading-7 tracking-wide">
@@ -24,7 +24,7 @@ const Bootcamp = () => {
                 Kelas Frontend Engineering
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-2 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
@@ -39,7 +39,7 @@ const Bootcamp = () => {
                 Kelas Full-Stack Web Development{" "}
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-2 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
@@ -54,7 +54,7 @@ const Bootcamp = () => {
                 Kelas Artificial Intelligence (AI){" "}
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-2 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-[31.08px] ml-4 lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-[33.02px] mb-0 lg:h-20 md:h-20 h-16 text-neutral-700 lg:text-base md:text-base text-sm font-light leading-7 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
