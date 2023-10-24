@@ -5,7 +5,7 @@ const App = () => {
     <div className="font-Inter">
         <Eduskill />
         {/* <Benefit /> */}
-        {/* <Marketing /> */}
+        <Marketing />
         {/* <Bootcamp /> */}
         {/* <Contact /> */}
         {/* <Faq />

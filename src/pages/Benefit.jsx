@@ -3,7 +3,7 @@ import { eduskill_left, consultant, prev, next } from "@/Data";
 
 const Benefit = () => {
   return (
-      <div className="w-full section bg-teal-400 my-[50px] mx-auto relative">
+      <div className="w-full section bg-teal-400 lg:my-[50px] md:my-[50px] my-5 mx-auto relative">
         <div className="w-full relative py-[40px] pr-[67px] overflow-hidden">
           <div className="bg-teal-400 h-[25px] w-full rotate-[105deg] absolute z-20 left-[45%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
           <div className="bg-orange-400 w-[100%] md:ml-[42%] xl:ml-[50%] absolute left-0 top-0 h-full -skew-x-[15deg] z-10"></div>

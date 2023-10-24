@@ -16,10 +16,10 @@ const Eduskill = () => {
             </div>
 
             <div className="lg:w-[603px] md:w-[603px] w-full lg:mt-3 md:mt-3 mt-4 lg:text-start md:text-start text-start">
-              <span className="text-black lg:text-6xl md:text-6xl text-lg font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-black lg:text-6xl md:text-6xl text-xl font-extrabold font-[''] capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
-              <span className="text-orange-500 lg:text-6xl md:text-6xl text-lg  font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-orange-500 lg:text-6xl md:text-6xl text-xl  font-extrabold font-[''] capitalize tracking-wide">
                 Eduskill
               </span>
             </div>
