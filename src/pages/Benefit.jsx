@@ -50,7 +50,7 @@ const Benefit = () => {
 
           <div className="flex-col justify-start items-start gap-1 lg:inline-flex md:inline-flex">
             <div className="lg:w-96 md:w-96  h-36 flex-col justify-start items-start gap-1 lg:inline-flex md:inline-flex">
-              <div className="lg:w-0 md:w-0 w-[160px] lg:text-start md:text-start text-center px-2 py-0.5 bg-orange-400 lg:mx-0 md:mx-0 mx-auto justify-center items-center gap-2.5 lg:inline-flex md:inline-flex">
+              <div className="lg:w-0 md:w-0 w-[160px] lg:text-start text-center px-2 py-0.5 bg-orange-400 lg:mx-0 md:mx-0 mx-auto justify-center items-center gap-2.5 lg:inline-flex md:inline-flex">
                 <div className="text-white lg:text-lg md:text-lg sm:text-center text-sm font-extrabold font-['Poppins'] capitalize leading-9 tracking-tight">
                   Mau ikut bootcamp
                 </div>
