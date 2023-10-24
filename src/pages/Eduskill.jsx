@@ -5,13 +5,13 @@ const Eduskill = () => {
   return (
     <div className="w-full h-[592px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
-        <div className="flex justify-between md:space-x-4">
-          <div className="section-1 mt-[68px]">
-            <div className="logo-eduskill">
-              <img src={eduskill} alt="logo_eduskill" className="w-52 h-16" />
+        <div className="lg:flex md:flex justify-between md:space-x-4">
+          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-10">
+            <div className="logo-eduskill ">
+              <img src={eduskill} alt="logo_eduskill" className="lg:w-52 md:w-52 w-44 lg:h-16 md:h-16 h-16" />
             </div>
-            <div className="w-[603px] mt-3">
-              <span className="text-black text-6xl font-extrabold font-[''] capitalize tracking-wide">
+            <div className="lg:w-[603px] md:w-[603px] w-[200px] mt-3">
+              <span className="text-black lg:text-6xl md:text-6xl text-2xl  font-extrabold font-[''] capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
               <span className="text-orange-500 text-6xl font-extrabold font-[''] capitalize tracking-wide">

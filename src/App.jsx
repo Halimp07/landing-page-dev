@@ -4,12 +4,12 @@ const App = () => {
   return (
     <div className="font-Inter">
         <Eduskill />
-        <Benefit />
-        <Marketing />
-        <Bootcamp />
-        <Contact />
-        <Faq />
-        <Footer />
+        {/* <Benefit /> */}
+        {/* <Marketing /> */}
+        {/* <Bootcamp /> */}
+        {/* <Contact /> */}
+        {/* <Faq />
+        <Footer /> */}
     </div>
   );
 };
