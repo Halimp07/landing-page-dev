@@ -3,15 +3,15 @@ import { bg_overlay } from "@/Data";
 
 const Contact = () => {
   return (
-    <div className="w-full h-72 bg-teal-600 flex justify-center relative">
-      <div className="section flex justify-center">
-        <img className="w-full h-[283px] absolute right-0 left-0 top-0" src={bg_overlay} />
-        <div className="h-72 py-12 flex-col justify-center items-center gap-6 inline-flex">
-          <div className="w-[830px] text-center text-white text-4xl font-bold font-['Poppins'] leading-10 tracking-wide relative">
+    <div className="w-full lg:h-72 md:h-72 h-56 bg-teal-600 flex justify-center relative">
+      <div className="lg:section md:section flex justify-center">
+        <img className="w-full lg:h-[283px] md:h-[283px] h-full absolute right-0 left-0 top-0" src={bg_overlay} />
+        <div className="lg:h-72 md:h-72 h-56 py-12 flex-col justify-center items-center gap-6 inline-flex">
+          <div className="lg:w-[830px] md:w-[830px] w-full text-center text-white lg:text-4xl md:text-4xl text-lg font-bold font-['Poppins'] leading-10 tracking-wide relative">
             Mau Request Kelas Untuk Lembaga pendidikan mu? Bisa Dong
           </div>
-          <div className="px-6 py-3 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex relative">
-            <div className="text-center text-white text-lg font-semibold font-['Poppins'] leading-9 tracking-tight">
+          <div className="px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex relative">
+            <div className="text-center text-white g:text-lg md:text-lg text-base font-semibold font-['Poppins'] leading-9 tracking-tight">
               <a href="https://wa.me/62895414873950">
                 Hubungi Kami
               </a>

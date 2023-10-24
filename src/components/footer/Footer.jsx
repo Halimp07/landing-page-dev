@@ -4,18 +4,18 @@ import { bg_overlay, eduskill_head } from "@/Data";
 const Footer = () => {
   return (
     <div>
-      <div className="w-full h-72 bg-orange-400 flex justify-center relative">
-        <div className="section flex justify-center ">
+    <div className="w-full lg:h-72 md:h-72 h-56 bg-orange-400 flex justify-center relative">
+    <div className="lg:section md:section flex justify-center">
           <img
-            className="w-full h-[283px]  absolute rotate-180 left-0 top-0"
+            className="w-full lg:h-[283px] md:h-[283px] h-full absolute right-0 left-0 top-0"
             src={bg_overlay}
           />{" "}
-          <div className="h-72 py-12 flex-col justify-center items-center gap-6 inline-flex">
-            <div className="w-[830px] text-center text-white text-4xl font-bold font-['Poppins'] leading-10 tracking-wide relative">
+        <div className="lg:h-72 md:h-72 h-56 py-12 flex-col justify-center items-center gap-6 inline-flex">
+        <div className="lg:w-[830px] md:w-[830px] w-full text-center text-white lg:text-4xl md:text-4xl text-lg font-bold font-['Poppins'] leading-10 tracking-wide relative">
               Yuk, Jadi Talenta Handal di Industri Digital Sekarang!{" "}
             </div>
-            <div className="px-6 py-3 bg-teal-600 rounded-xl justify-center items-center gap-2.5 inline-flex relative">
-              <div className="text-center text-white text-lg font-semibold font-['Poppins'] leading-9 tracking-tight">
+            <div className="px-6 lg:py-3 md:py-3 py-2 bg-teal-600 rounded-xl justify-center items-center gap-2.5 inline-flex relative">
+            <div className="text-center text-white g:text-lg md:text-lg text-base font-semibold font-['Poppins'] leading-9 tracking-tight">
                 <a href="http://linktr.ee/eduskill">
                   Mulai Sekarang!{" "}
                   </a>
@@ -27,9 +27,9 @@ const Footer = () => {
 
       <div className="w-full my-[25px] h-24 bg-gray-200 flex justify-center items-center">
         <div className="flex-col text-center">
-          <img className="w-12 h-16 mx-auto" src={eduskill_head} />{" "}
+          <img className="lg:w-12 md:w-12 w-10 lg:h-16 md:h-16 h-12 mx-auto" src={eduskill_head} />{" "}
           {/* Added mx-auto to center the image horizontally */}
-          <div className="w-64 h-6 text-zinc-500 text-sm font-semibold font-['Inter'] leading-tight tracking-tight">
+          <div className="w-64 h-6 text-zinc-500 lg:text-sm md:text-sm text-xs font-semibold font-['Inter'] leading-tight tracking-tight">
             2023 Lorem ipsum dolor sit amet
           </div>
         </div>

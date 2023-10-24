@@ -7,9 +7,9 @@ const App = () => {
         {/* <Benefit /> */}
         <Marketing />
         <Bootcamp />
-        {/* <Contact /> */}
-        {/* <Faq />
-        <Footer /> */}
+        <Contact />
+         {/* <Faq />  */}
+        <Footer />
     </div>
   );
 };
