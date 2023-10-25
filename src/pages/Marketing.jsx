@@ -46,7 +46,7 @@ const Marketing = () => {
                 <img
                   src={market2}
                   alt="collaborative"
-                  className="lg:w-14 md:w-14 w-12 lg:h-14 md:h-14 h-12 rounded-full"
+                  className="lg:w-14 md:w-14 w-9 lg:h-14 md:h-14 h-9 rounded-full"
                 />
               </div>
               <div className="flex-col justify-start items-start gap-1 inline-flex">
