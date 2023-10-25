@@ -42,7 +42,7 @@ const Marketing = () => {
             </div>
 
             <div className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex">
-              <div className="flex justify-center items-center lg:w-16 md:w-16 w-16 lg:h-16 md:h-16 h-16 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
+            <div className="flex justify-center items-center lg:w-16 md:w-16 w-12 lg:h-16 md:h-16 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
                 <img
                   src={market2}
                   alt="collaborative"
