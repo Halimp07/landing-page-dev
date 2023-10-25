@@ -36,8 +36,7 @@ const Faq = () => {
               onClick={toggleFaq1}
             >
               <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
-                Gimana caranya supaya orang-orang atau perusahaan percaya kalau
-                saya udah lulus dari EduSkill Bootcamp?
+                Bagaimana cara membeli kelas atau bootcamp di Eduskill?
               </div>
               <div>
                 <img
@@ -49,11 +48,12 @@ const Faq = () => {
             </div>
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
-                {/* Display the answer when the FAQ is open */}
-                Ini adalah jawaban dari pertanyaan ini. Contoh: Orang-orang atau
-                perusahaan akan percaya jika Anda dapat menunjukkan proyek atau
-                portofolio yang sudah Anda buat setelah lulus dari EduSkill
-                Bootcamp.
+                Untuk membeli kelas atau bootcamp, Anda dapat mengunjungi link:
+                <a href="https://linktr.ee/eduskill" target="_blank" rel="noopener noreferrer" className="italic">
+                  https://linktr.ee/eduskill{" "}
+                </a>{" "}
+                dan pilih program yang Anda minati. Ikuti langkah-langkah
+                selanjutnya untuk menyelesaikan pembelian.
               </div>
             )}
             <div
@@ -61,7 +61,8 @@ const Faq = () => {
               onClick={toggleFaq1}
             >
               <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
-                Kapan agenda Bootcamp dimulai?{" "}
+                Bagaimana saya dapat meminta kelas khusus untuk lembaga atau
+                kelompok?{" "}
               </div>
               <div>
                 <img
@@ -73,36 +74,16 @@ const Faq = () => {
             </div>
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
-                {/* Display the answer when the FAQ is open */}
-                Ini adalah jawaban dari pertanyaan ini. Contoh: Orang-orang atau
-                perusahaan akan percaya jika Anda dapat menunjukkan proyek atau
-                portofolio yang sudah Anda buat setelah lulus dari EduSkill
-                Bootcamp.
-              </div>
-            )}
-
-            <div
-              className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
-              onClick={toggleFaq1}
-            >
-              <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
-                Apakah programnya full online?{" "}
-              </div>
-              <div>
-                <img
-                  src={dropdown_btn}
-                  alt="dropdown-button"
-                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
-                />
-              </div>
-            </div>
-            {faq1Open && (
-              <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
-                {/* Display the answer when the FAQ is open */}
-                Ini adalah jawaban dari pertanyaan ini. Contoh: Orang-orang atau
-                perusahaan akan percaya jika Anda dapat menunjukkan proyek atau
-                portofolio yang sudah Anda buat setelah lulus dari EduSkill
-                Bootcamp.
+                Untuk permintaan kelas khusus untuk lembaga atau kelompok,
+                silakan hubungi tim admin di nomor  <a
+                  href="https://wa.me/62895414873950"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inter"
+                >
+                  +62895414873950.
+                </a> atau melalui
+                formulir kontak di situs web kami.
               </div>
             )}
 
@@ -111,7 +92,8 @@ const Faq = () => {
               onClick={toggleFaq1}
             >
               <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
-                Apakah sedang ada promo potongan harga?{" "}
+                Apakah tersedia layanan bantuan atau dukungan teknis jika saya
+                mengalami kesulitan?
               </div>
               <div>
                 <img
@@ -123,11 +105,16 @@ const Faq = () => {
             </div>
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
-                {/* Display the answer when the FAQ is open */}
-                Ini adalah jawaban dari pertanyaan ini. Contoh: Orang-orang atau
-                perusahaan akan percaya jika Anda dapat menunjukkan proyek atau
-                portofolio yang sudah Anda buat setelah lulus dari EduSkill
-                Bootcamp.
+                Ya, tim dukungan kami siap membantu Anda. Silakan hubungi kami
+                melalui nomor  <a
+                  href="https://wa.me/62895414873950"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inter"
+                >
+                  +62895414873950.
+                </a> atau gunakan fitur chat live di
+                situs web kami untuk mendapatkan bantuan
               </div>
             )}
 
@@ -136,8 +123,7 @@ const Faq = () => {
               onClick={toggleFaq1}
             >
               <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
-                Kalau udah lulus dari Eduskill Bootcamp, bisa dibantu cari
-                kerja?{" "}
+                Apa manfaat berlangganan premium di Eduskill?{" "}
               </div>
               <div>
                 <img
@@ -149,11 +135,40 @@ const Faq = () => {
             </div>
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
-                {/* Display the answer when the FAQ is open */}
-                Ini adalah jawaban dari pertanyaan ini. Contoh: Orang-orang atau
-                perusahaan akan percaya jika Anda dapat menunjukkan proyek atau
-                portofolio yang sudah Anda buat setelah lulus dari EduSkill
-                Bootcamp.
+                Berlangganan premium memberikan akses ke konten eksklusif,
+                proyek-proyek lanjutan, dan bimbingan pribadi yang lebih
+                mendalam dengan MentorBot.
+              </div>
+            )}
+
+            <div
+              className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
+              onClick={toggleFaq1}
+            >
+              <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
+                Bagaimana saya bisa mendapatkan informasi lebih lanjut tentang
+                program bootcamp yang ditawarkan oleh Eduskill?
+              </div>
+              <div>
+                <img
+                  src={dropdown_btn}
+                  alt="dropdown-button"
+                  className="lg:w-[19px] md:w-[19px] w-5 lg:h-3 md:h-3 h-3"
+                />
+              </div>
+            </div>
+            {faq1Open && (
+              <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
+                Untuk informasi lebih lanjut tentang program bootcamp kami,
+                silakan kunjungi situs web kami atau hubungi tim admin di nomor{" "}
+                <a
+                  href="https://wa.me/62895414873950"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inter"
+                >
+                  +62895414873950.
+                </a>
               </div>
             )}
           </div>
