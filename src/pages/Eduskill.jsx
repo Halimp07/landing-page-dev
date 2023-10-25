@@ -1,5 +1,6 @@
 import React from "react";
 import { eduskill, hero, logo } from "@/Data";
+import AOS from "aos";
 
 const Eduskill = () => {
   return (
@@ -41,7 +42,13 @@ const Eduskill = () => {
             <div className="lg:mt-6 md:mt-6 mt-3">
               <div className="lg:w-52 md:w-52 w-[164px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
                 <div className="text-center text-white lg:text-lg md:text-lg text-base font-semibold font-[''] leading-9 tracking-tight">
-                  <a href="http://linktr.ee/eduskill">Mulai Sekarang!</a>
+                  <a
+                    href="http://linktr.ee/eduskill"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Mulai Sekarang!
+                  </a>
                 </div>
               </div>
             </div>

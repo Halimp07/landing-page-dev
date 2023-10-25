@@ -8,6 +8,8 @@ import eduskill_left_logo from "@/assets/section_2/eduskill_left_logo.png";
 import check_benefit from "@/assets/section_2/check.png";
 import previous_btn from "@/assets/section_2/previous.svg";
 import next_btn from "@/assets/section_2/next.svg";
+import market_1 from "@/assets/section_2/marketing_1.png";
+import market_2 from "@/assets/section_2/marketing_2.png";
 
 // Section_3
 import bootcamp1 from "@/assets/section_3/bootcamp_1.png"
@@ -33,7 +35,8 @@ export const eduskill_left= [eduskill_left_logo];
 export const check = [check_benefit];
 export const prev = [previous_btn];
 export const next = [next_btn];
-
+export const market1 = [market_1];
+export const market2 = [market_2];
 
 // Export Section_2 Consultant
 export const consultant = [

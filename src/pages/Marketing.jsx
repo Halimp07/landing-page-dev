@@ -1,4 +1,5 @@
 import React from "react";
+import { market1, market2 } from "@/Data";
 
 const Marketing = () => {
   return (
@@ -21,31 +22,43 @@ const Marketing = () => {
 
           <div className="w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
             <div className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex">
-              <div className="lg:w-16 md:w-16 w-14 lg:h-16 md:h-16 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full" />
+            <div className="flex justify-center items-center lg:w-16 md:w-16 w-14 lg:h-16 md:h-16 h-14 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
+                <img
+                  src={market1}
+                  alt="real_cases"
+                  className="lg:w-14 md:w-14 w-10 lg:h-14 md:h-14 h-10 rounded-full"
+                />
+              </div>{" "}
               <div className="flex-col justify-start items-st4art gap-1 inline-flex">
                 <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold font-['Poppins'] lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Real Cases, Real Projects
                 </div>
-                <div className="lg:w-96 md:w-96 w-full text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                  <br />
-                  Etiam commodo eros a lacus placerat, eget porttitor
+                <div className="lg:w-96 md:w-96 w-64 text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
+                  Selain teori, Eduskill juga menawarkan real cases & real
+                  projects guna memberikan pengalaman praktik dunia kerja yang
+                  nyata.
                 </div>
               </div>
             </div>
 
             <div className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex">
-          <div className="lg:w-16 md:w-16 w-14 lg:h-16 md:h-16 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full" />
-            <div className="flex-col justify-start items-start gap-1 inline-flex">
-              <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold font-['Poppins'] lg:leading-9 md:leading-9 leading-7 tracking-tight">
-                Real Cases, Real Projects
+              <div className="flex justify-center items-center lg:w-16 md:w-16 w-14 lg:h-16 md:h-16 h-14 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
+                <img
+                  src={market2}
+                  alt="collaborative"
+                  className="lg:w-14 md:w-14 w-10 lg:h-14 md:h-14 h-10 rounded-full"
+                />
               </div>
-              <div className="lg:w-96 md:w-96 w-full text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                Etiam commodo eros a lacus placerat, eget porttitor
+              <div className="flex-col justify-start items-start gap-1 inline-flex">
+                <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold font-['Poppins'] lg:leading-9 md:leading-9 leading-7 tracking-tight">
+                  Collaborative-Based Learning{" "}
+                </div>
+                <div className="lg:w-96 md:w-96 w-64 text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
+                  Kolaborasi aktif dalam simulasi nyata melalui project
+                  kelompok.
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
