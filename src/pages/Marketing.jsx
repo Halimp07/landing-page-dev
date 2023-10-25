@@ -33,7 +33,7 @@ const Marketing = () => {
                 <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold font-['Poppins'] lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Real Cases, Real Projects
                 </div>
-                <div className="lg:w-96 md:w-96 w-64 text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
+                <div className="lg:w-96 md:w-96 w-[265px] text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
                   Selain teori, Eduskill juga menawarkan real cases & real
                   projects guna memberikan pengalaman praktik dunia kerja yang
                   nyata.
@@ -53,7 +53,7 @@ const Marketing = () => {
                 <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold font-['Poppins'] lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Collaborative-Based Learning{" "}
                 </div>
-                <div className="lg:w-96 md:w-96 w-64 text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
+                <div className="lg:w-96 md:w-96 w-[265px] text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
                   Kolaborasi aktif dalam simulasi nyata melalui project
                   kelompok.
                 </div>
