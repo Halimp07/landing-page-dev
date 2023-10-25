@@ -37,8 +37,8 @@ const Footer = () => {
             src={eduskill_head}
           />{" "}
           {/* Added mx-auto to center the image horizontally */}
-          <div className="w-64 h-6 text-zinc-500 lg:text-sm md:text-sm text-xs font-semibold font-['Inter'] leading-tight tracking-tight">
-            2023 Lorem ipsum dolor sit amet
+          <div className="w-80 h-6 text-zinc-500 lg:text-sm md:text-sm text-xs font-semibold font-['Inter'] leading-tight tracking-tight">
+            Copyright © 20123 Eduskill.id. All Rights Reserved
           </div>
         </div>
       </div>
