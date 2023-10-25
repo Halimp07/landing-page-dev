@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { dropdown_btn } from "@/Data";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
-  const [rotation, setRotation] = useState(0);
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const [faq1Open, setFaq1Open] = useState(false); // State for the first FAQ
 
@@ -10,17 +14,25 @@ const Faq = () => {
     setFaq1Open(!faq1Open); // Toggle the state when clicked
   };
 
-
-
   return (
     <div className="w-full flex justify-center">
       <div className="lg:section md:section my-[50px] flex-col inline-flex items-center">
         <div className="lg:w-[923px] md:w-[923px] w-full flex justify-center mb-10">
           <div className="h-20 flex-col items-center gap-1 inline-flex">
-            <div className="text-center text-emerald-800 lg:text-[34px] md:text-[34px] text-base font-bold font-['Poppins'] capitalize lg:leading-10 md:leading-10 leading-7 tracking-wide">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+              className="text-center text-emerald-800 lg:text-[34px] md:text-[34px] text-base font-bold font-['Poppins'] capitalize lg:leading-10 md:leading-10 leading-7 tracking-wide"
+            >
               Yang ingin kamu tahu seputar eduskill bootcamp{" "}
             </div>
-            <div className="lg:w-96 md:w-96 w-full h-6 text-center text-gray-400 lg:text-base md:text-base text-xs font-medium font-['Inter'] capitalize leading-snug tracking-tight">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="750"
+              className="lg:w-96 md:w-96 w-full h-6 text-center text-gray-400 lg:text-base md:text-base text-xs font-medium font-['Inter'] capitalize leading-snug tracking-tight"
+            >
               Yang ingin kamu tahu seputar eduskill bootcamp{" "}
             </div>
           </div>
@@ -29,6 +41,9 @@ const Faq = () => {
         <div className="w-full flex justify-center">
           <div className="flex-col lg:w-full md:w-full gap-6 inline-flex">
             <div
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
               className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-3 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
               onClick={toggleFaq1}
             >
@@ -46,7 +61,12 @@ const Faq = () => {
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
                 Untuk membeli kelas atau bootcamp, Anda dapat mengunjungi link:
-                <a href="https://linktr.ee/eduskill" target="_blank" rel="noopener noreferrer" className="italic">
+                <a
+                  href="https://linktr.ee/eduskill"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic"
+                >
                   https://linktr.ee/eduskill{" "}
                 </a>{" "}
                 dan pilih program yang Anda minati. Ikuti langkah-langkah
@@ -54,6 +74,9 @@ const Faq = () => {
               </div>
             )}
             <div
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
               className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
               onClick={toggleFaq1}
             >
@@ -72,19 +95,23 @@ const Faq = () => {
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
                 Untuk permintaan kelas khusus untuk lembaga atau kelompok,
-                silakan hubungi tim admin di nomor  <a
+                silakan hubungi tim admin di nomor{" "}
+                <a
                   href="https://wa.me/62895414873950"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inter"
                 >
                   +62895414873950.
-                </a> atau melalui
-                formulir kontak di situs web kami.
+                </a>{" "}
+                atau melalui formulir kontak di situs web kami.
               </div>
             )}
 
             <div
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
               className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
               onClick={toggleFaq1}
             >
@@ -103,19 +130,24 @@ const Faq = () => {
             {faq1Open && (
               <div className="lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 text-emerald-800 lg:text-base md:text-base text-sm font-semibold font-['Poppins'] leading-normal tracking-tight mt-2">
                 Ya, tim dukungan kami siap membantu Anda. Silakan hubungi kami
-                melalui nomor  <a
+                melalui nomor{" "}
+                <a
                   href="https://wa.me/62895414873950"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inter"
                 >
                   +62895414873950.
-                </a> atau gunakan fitur chat live di
-                situs web kami untuk mendapatkan bantuan
+                </a>{" "}
+                atau gunakan fitur chat live di situs web kami untuk mendapatkan
+                bantuan
               </div>
             )}
 
             <div
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
               className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
               onClick={toggleFaq1}
             >
@@ -139,6 +171,9 @@ const Faq = () => {
             )}
 
             <div
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
               className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
               onClick={toggleFaq1}
             >
