@@ -10,10 +10,7 @@ const Faq = () => {
     setFaq1Open(!faq1Open); // Toggle the state when clicked
   };
 
-  const toggleRotation = () => {
-    const newRotation = rotation === 0 ? -180 : 0;
-    setRotation(newRotation);
-  };
+
 
   return (
     <div className="w-full flex justify-center">

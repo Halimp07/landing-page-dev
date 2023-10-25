@@ -2,7 +2,7 @@ import {  Eduskill, Benefit, Marketing, Bootcamp, Faq, Contact, Footer } from ".
 
 const App = () => {
   return (
-    <div className="font-Inter">
+    <div>
         <Eduskill />
         <Benefit />
         <Marketing />

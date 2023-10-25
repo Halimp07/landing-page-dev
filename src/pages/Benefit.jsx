@@ -7,7 +7,7 @@ const Benefit = () => {
       <div className="w-full relative py-[40px] lg:pr-[67px] md:pr-[67px] pr-0 overflow-hidden">
         <div className="lg:visible md:visible invisible bg-teal-400 h-[25px] w-full rotate-[105deg] absolute z-20 left-[45%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="bg-orange-400 w-[100%] md:ml-[42%] xl:ml-[50%] absolute left-0 lg:top-0 md:top-0 bottom-0 lg:h-full md:full h-1/2 lg:-skew-x-[15deg] md:-skew-x-[15deg] -skew-x-0 z-10"></div>
-        <div className=" text-white lg:text-[27px] md:text-[27px] lg:mt-0 md:mt-0 mt-44 text-base lg:flex md:flex lg:justify-end md:justify-end lg:text-start md:text-start text-center font-extrabold lg:mr-10 md:mr-10 mr-0 font-[''] capitalize leading-loose tracking-wide relative z-20">
+        <div className=" text-white lg:text-[27px] md:text-[27px] lg:mt-0 md:mt-0 mt-44 text-base lg:flex md:flex lg:justify-end md:justify-end lg:text-start md:text-start text-center font-extrabold lg:mr-10 md:mr-10 mr-0 font-['Inter'] capitalize leading-loose tracking-wide relative z-20">
           Tenang, ada Eduskill Consultant!
         </div>
       
