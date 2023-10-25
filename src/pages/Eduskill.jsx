@@ -24,7 +24,7 @@ const Eduskill = () => {
                 Eduskill
               </span>
             </div>
-            <div className="lg:mt-5 md:mt-5 mt-4 text-justify">
+            <div className="lg:mt-5 md:mt-5 mt-3 text-justify">
               <span className="text-black text-base font-normal font-[''] lg:leading-loose md:leading-loose leading-none lg:tracking-tight md:tracking-tight tracking-normal">
                 Jadi{" "}
               </span>
