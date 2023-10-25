@@ -17,14 +17,14 @@ const Eduskill = () => {
             </div>
 
             <div className="lg:w-[603px] md:w-[603px] w-full lg:mt-3 md:mt-3 mt-4 lg:text-start md:text-start text-start">
-              <span className="text-black lg:text-6xl md:text-6xl text-xl font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-black lg:text-6xl md:text-6xl text-2xl font-extrabold font-[''] capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
-              <span className="text-orange-500 lg:text-6xl md:text-6xl text-xl  font-extrabold font-[''] capitalize tracking-wide">
+              <span className="text-orange-500 lg:text-6xl md:text-6xl text-2xl font-extrabold font-[''] capitalize tracking-wide">
                 Eduskill
               </span>
             </div>
-            <div className="lg:mt-5 md:mt-5 mt-2 text-justify">
+            <div className="lg:mt-5 md:mt-5 mt-4 text-justify">
               <span className="text-black text-base font-normal font-[''] lg:leading-loose md:leading-loose leading-none lg:tracking-tight md:tracking-tight tracking-normal">
                 Jadi{" "}
               </span>
