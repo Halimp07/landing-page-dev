@@ -47,8 +47,6 @@ const Footer = () => {
 
       <div className="w-full my-[25px] h-24 bg-gray-200 flex justify-center items-center">
         <div
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
           className="flex-col text-center"
         >
           <img

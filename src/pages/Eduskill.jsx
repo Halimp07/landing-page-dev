@@ -8,7 +8,7 @@ const Eduskill = () => {
     AOS.init();
   }, []);
   return (
-    <div className="w-full lg:h-[592px] md:h-[592px] h-[620px] bg-[#B0E4DE]/40 ">
+    <div className="w-full lg:h-[592px] md:h-[592px] h-[630px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
         <div className="lg:flex md:flex justify-between md:space-x-4">
           <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
