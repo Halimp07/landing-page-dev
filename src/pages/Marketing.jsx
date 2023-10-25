@@ -22,11 +22,11 @@ const Marketing = () => {
 
           <div className="w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
             <div className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex">
-            <div className="flex justify-center items-center lg:w-16 md:w-16 w-14 lg:h-16 md:h-16 h-14 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
+            <div className="flex justify-center items-center lg:w-16 md:w-16 w-12 lg:h-16 md:h-16 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
                 <img
                   src={market1}
                   alt="real_cases"
-                  className="lg:w-14 md:w-14 w-10 lg:h-14 md:h-14 h-10 rounded-full"
+                  className="lg:w-14 md:w-14 w-9 lg:h-14 md:h-14 h-9 rounded-full"
                 />
               </div>{" "}
               <div className="flex-col justify-start items-st4art gap-1 inline-flex">
@@ -42,11 +42,11 @@ const Marketing = () => {
             </div>
 
             <div className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex">
-              <div className="flex justify-center items-center lg:w-16 md:w-16 w-14 lg:h-16 md:h-16 h-14 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
+              <div className="flex justify-center items-center lg:w-16 md:w-16 w-12 lg:h-16 md:h-16 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-teal-500 rounded-full">
                 <img
                   src={market2}
                   alt="collaborative"
-                  className="lg:w-14 md:w-14 w-10 lg:h-14 md:h-14 h-10 rounded-full"
+                  className="lg:w-14 md:w-14 w-9 lg:h-14 md:h-14 h-9 rounded-full"
                 />
               </div>
               <div className="flex-col justify-start items-start gap-1 inline-flex">
