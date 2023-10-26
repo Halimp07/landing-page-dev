@@ -3,13 +3,13 @@ import {  Eduskill, Benefit, Marketing, Bootcamp, Faq, Contact, Footer } from ".
 const App = () => {
   return (
     <div>
-        {/* <Eduskill /> */}
-        {/* <Benefit /> */}
+        <Eduskill />
+        <Benefit />
         <Marketing />
-        {/* <Bootcamp />
+        <Bootcamp />
         <Contact />
          <Faq /> 
-        <Footer /> */}
+        <Footer />
     </div>
   );
 };
