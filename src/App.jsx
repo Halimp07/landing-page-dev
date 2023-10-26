@@ -4,9 +4,9 @@ const App = () => {
   return (
     <div>
         {/* <Eduskill /> */}
-        <Benefit />
-        {/* <Marketing />
-        <Bootcamp />
+        {/* <Benefit /> */}
+        <Marketing />
+        {/* <Bootcamp />
         <Contact />
          <Faq /> 
         <Footer /> */}
