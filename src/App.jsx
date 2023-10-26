@@ -3,9 +3,9 @@ import {  Eduskill, Benefit, Marketing, Bootcamp, Faq, Contact, Footer } from ".
 const App = () => {
   return (
     <div>
-        {/* <Eduskill /> */}
-        {/* <Benefit /> */}
-        <Marketing />
+        <Eduskill />
+        <Benefit />
+        {/* <Marketing /> */}
         <Bootcamp />
         <Contact />
          <Faq /> 
