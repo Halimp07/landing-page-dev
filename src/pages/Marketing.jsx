@@ -36,7 +36,7 @@ const Marketing = () => {
 
           <div className="w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
             <div
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex"
@@ -61,7 +61,7 @@ const Marketing = () => {
             </div>
 
             <div
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               className="w-full lg:h-40 md:h-40 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex"
