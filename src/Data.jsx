@@ -21,6 +21,7 @@ import background from "@/assets/section_4/bg-overlay.png"
 
 // Section_5
 import dropdown_button from  "@/assets/section_5/dropdown.svg"
+import dropup_button from  "@/assets/section_5/dropup.svg"
 
 // Section_6
 import logo_footer from "@/assets/section_6/edu_head.png"
@@ -92,6 +93,37 @@ export const bg_overlay = [background];
 
 // Export Section_5
 export const dropdown_btn = [dropdown_button];
+export const dropup_btn = [dropup_button];
+
+// Export Section_5 FAQ
+export const faq = [
+  {
+    id: 1,
+    question: "Bagaimana cara membeli kelas atau bootcamp di Eduskill?",
+    answer: "Untuk membeli kelas atau bootcamp, Anda dapat mengunjungi link: https://linktr.ee/eduskill dan pilih program yang Anda minati. Ikuti langkah-langkah selanjutnya untuk menyelesaikan pembelian.",
+  },
+  {
+    id: 2,
+    question: "Bagaimana saya dapat meminta kelas khusus untuk lembaga atau kelompok?",
+    answer: "Untuk permintaan kelas khusus untuk lembaga atau kelompok, silakan hubungi tim admin di nomor +62895414873950 atau melalui formulir kontak di situs web kami.",
+  },
+  {
+    id: 3,
+    question: "Apakah tersedia layanan bantuan atau dukungan teknis jika saya mengalami kesulitan?",
+    answer: "Ya, tim dukungan kami siap membantu Anda. Silakan hubungi kami melalui nomor +62895414873950 atau gunakan fitur chat live di situs web kami untuk mendapatkan bantuan.",
+  },
+  {
+    id: 4,
+    question: "Apa manfaat berlangganan premium di Eduskill?",
+    answer: "Berlangganan premium memberikan akses ke konten eksklusif, proyek-proyek lanjutan, dan bimbingan pribadi yang lebih mendalam dengan MentorBot.",
+  },
+  {
+    id: 5,
+    question: "Bagaimana saya bisa mendapatkan informasi lebih lanjut tentang program bootcamp yang ditawarkan oleh Eduskill?",
+    answer: "Untuk informasi lebih lanjut tentang program bootcamp kami, silakan kunjungi situs web kami atau hubungi tim admin di nomor +62895414873950.",
+  },
+];
+
 
 // Export Section_6
 export const eduskill_head = [logo_footer];
