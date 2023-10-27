@@ -26,10 +26,10 @@ const FaqItem = ({ item, toggleFaq, isItemOpen }) => {
   return (
     <div
       {...aosProps}
-      className="justify-between lg:px-6 md:px-6 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
+      className="justify-between lg:px-6 md:px-8 px-8 lg:py-3 md:py-3 py-4 bg-white rounded-lg shadow border border-teal-400 items-center inline-flex cursor-pointer"
       onClick={toggleFaq}
     >
-      <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-7 h-full text-emerald-800 lg:text-base md:text-base text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
+      <div className="lg:w-full md:w-full w-[290px] lg:h-7 md:h-full h-full text-emerald-800 lg:text-base md:text-sm text-xs font-semibold font-['Poppins'] leading-normal tracking-tight">
         {question}
       </div>
       <div>
@@ -60,7 +60,7 @@ const Faq = () => {
         {faq.map((item) => (
           <div
             key={item.id}
-            className="lg:mb-[25px] md:mb-[25px] mb-4 flex-col lg:w-full md:w-full inline-flex"
+            className="lg:mb-[25px] md:mb-[15px] mb-4 flex-col lg:w-full md:w-full inline-flex"
           >
             <FaqItem
               item={item}
@@ -73,9 +73,9 @@ const Faq = () => {
               data-aos-easing="ease-in-back"
               data-aos-delay="50"
               data-aos-offset="0"
-                className="w-full h-32 lg:px-6 md:px-6 px-8 bg-emerald-50 rounded-tr rounded-br border-l-2 border-teal-700 justify-center items-center inline-flex"
+                className="w-full lg:h-32 md:h-20 lg:px-6 md:px-8 px-8 bg-emerald-50 rounded-tr rounded-br border-l-2 border-teal-700 justify-center items-center inline-flex"
               >
-                <div className="lg:w-full md:w-full w-full text-black lg:text-base md:text-base text-[11px] font-normal font-['Poppins'] leading-normal tracking-tight">
+                <div className="lg:w-full md:w-full w-full text-black lg:text-base md:text-sm text-[11px] font-normal font-['Poppins'] leading-normal tracking-tight">
                   {item.answer}
                 </div>
               </div>

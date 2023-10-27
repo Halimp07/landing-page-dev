@@ -8,10 +8,10 @@ const Eduskill = () => {
     AOS.init();
   }, []);
   return (
-    <div className="w-full lg:h-[592px] md:h-[592px] h-[630px] bg-[#B0E4DE]/40 ">
+    <div className="w-full lg:h-[592px] md:h-[750px] h-[630px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
-        <div className="xl:flex lg:flex md:flex justify-between md:space-x-4">
-          <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
+        <div className="xl:flex lg:flex md:block block justify-between md:space-x-4">
+          <div className="section-1 lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
             <div
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -20,19 +20,19 @@ const Eduskill = () => {
               <img
                 src={eduskill}
                 alt="logo_eduskill"
-                className="lg:w-48 md:w-52 w-36 lg:h-16 md:h-16 h-12"
+                className="lg:mt-[68px] md:mt-[40px] mt-0 lg:w-48 md:w-40 w-36 lg:h-16 md:h-14 h-12"
               />
             </div>
 
             <div
               data-aos="fade-right"
               data-aos-duration="1000"
-              className="lg:w-[603px] md:w-[603px] w-full lg:mt-3 md:mt-3 mt-4 lg:text-start leading-10 md:text-start text-start"
+              className="lg:w-[603px] md:w-[403px] w-full lg:mt-3 md:mt-3 mt-4 lg:text-start leading-10 md:text-start text-start"
             >
-              <span className="text-black lg:text-6xl md:text-6xl text-2xl font-extrabold  capitalize tracking-wide">
+              <span className="text-black lg:text-6xl md:text-4xl text-2xl font-extrabold  capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
-              <span className="text-orange-500 lg:text-6xl md:text-6xl text-2xl font-extrabold  capitalize tracking-wide">
+              <span className="text-orange-500 lg:text-6xl md:text-4xl text-2xl font-extrabold  capitalize tracking-wide">
                 Eduskill
               </span>
             </div>
@@ -60,8 +60,8 @@ const Eduskill = () => {
               data-aos-duration="3000"
               className="lg:mt-6 md:mt-6 mt-3"
             >
-              <div className="lg:w-52 md:w-52 w-[175px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
-                <div className="text-center text-white lg:text-lg md:text-lg xl:text-[18px] md:text-[18px] text-base font-semibold font-['Poppins'] lg:leading-9 md:leading-9 leading-6 tracking-tight">
+              <div className="lg:w-52 md:w-48 w-[175px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
+                <div className="text-center text-white lg:text-lg md:text-sm xl:text-[18px] md:text-[18px] text-base font-semibold font-['Poppins'] lg:leading-9 md:leading-9 leading-6 tracking-tight">
                   <a
                     href="http://linktr.ee/eduskill"
                     target="_blank"
@@ -78,19 +78,19 @@ const Eduskill = () => {
           <div
             data-aos="flip-right"
             data-aos-duration="2000"
-            className="flex lg:mt-[125px] md:mt-[125px] mt-[40px] lg:mx-0 md:mx-0 mx-[20px]"
+            className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px] lg:mx-0 md:mx-0 mx-[20px]"
           >
-            <div className="lg:w-[440px] md:w-[440px] w-full relative">
+            <div className="lg:w-[440px] md:w-[400px] w-full relative">
               <div
-                className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left lg:h-[285px] md:h-[285px] h-[180px]"
+                className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left lg:h-[285px] md:h-[235px] h-[180px]"
                 style={{
                   backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.7), transparent), url(${hero})`,
                   backgroundPosition: "left 65px center",
                   backgroundSize: "100% 100%",
                 }}
               >
-                <div className="absolute top-0 w-full lg:h-[285px] md:h-[285px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
-                <div className="lg:left-8 md:left-8 left-3 lg:top-[90px] md:top:[90px] top-[45px] absolute text-white lg:text-xl md:text-xl text-base lg:font-bold md:font-bold font-semibold font-['Poppins'] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-wide md:tracking-tight tracking-normal">
+                <div className="absolute top-0 w-full lg:h-[285px] md:h-[235px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
+                <div className="lg:left-8 md:left-4 left-3 lg:top-[90px] md:top-[60px] top-[45px] absolute text-white lg:text-xl md:text-base text-base lg:font-bold md:font-bold font-semibold font-['Poppins'] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-wide md:tracking-tight tracking-normal">
                   Dari gak percaya diri,
                   <br />
                   <span>
@@ -98,21 +98,21 @@ const Eduskill = () => {
                     menginspirasi
                   </span>
                 </div>
-                <div className="lg:left-8 md:left-8 left-3 lg:top-[220px] md:top-[220px] top-[125px] font-['Poppins'] absolute">
-                  <span className="text-white lg:text-base md:text-base text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
+                <div className="lg:left-8 md:left-4 left-3 lg:top-[220px] md:top-[170px] top-[125px] font-['Poppins'] absolute">
+                  <span className="text-white lg:text-base md:text-sm text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Saatnya
                   </span>
-                  <span className="text-white lg:text-base md:text-base text-sm font-bold lg:leading-tight md:leading-tight leading-none tracking-tight">
+                  <span className="text-white lg:text-base md:text-sm text-sm font-bold lg:leading-tight md:leading-tight leading-none tracking-tight">
                     {" "}
                     #MulaiUpskilling
                     <br />
                   </span>
-                  <span className="text-white lg:text-base md:text-base text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
+                  <span className="text-white lg:text-base md:text-sm text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Bersama Eduskill
                   </span>
                 </div>
                 <img
-                  className="lg:w-44 md:w-44 w-28 lg:h-14 md:h-14 h-10 lg:left-8 md:left-8 left-3 lg:top-5 md:top-5 top-1 absolute"
+                  className="lg:w-44 md:w-32 w-28 lg:h-14 md:h-11 h-10 lg:left-8 md:left-4 left-3 lg:top-5 md:top-3 top-1 absolute"
                   src={logo}
                 />
               </div>
