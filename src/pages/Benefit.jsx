@@ -74,7 +74,7 @@ const Benefit = () => {
               data-aos-duration="2000"
               className="lg:w-96 md:w-96 w-44 lg:h-28 md:h-14 h-36 flex-col lg:mx-0 md:mx-0 mx-auto justify-start items-start gap-1 lg:inline-flex md:inline-flex"
             >
-              <div className="lg:text-start text-center py-0.5 bg-orange-400 lg:mx-0 md:mx-0 mx-auto justify-center items-center gap-2.5 lg:inline-flex md:inline-flex">
+              <div className="lg:text-start text-center px-2 py-0.5 bg-orange-400 lg:mx-0 md:mx-0 mx-auto justify-center items-center gap-2.5 lg:inline-flex md:inline-flex">
                 <div className="text-white lg:text-lg md:text-sm text-sm sm:text-center font-extrabold font-['Poppins'] capitalize leading-9 tracking-tight">
                   Mau ikut bootcamp
                 </div>
