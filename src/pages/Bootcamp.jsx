@@ -30,7 +30,7 @@ const Bootcamp = () => {
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
-            className="lg:w-96 md:w-[400px] w-full lg:h-56 md:h-44 h-44 bg-white rounded-2xl shadow"
+            className="lg:w-96 md:w-[400px] w-full lg:h-[14.5rem] md:h-44 h-44 bg-white rounded-2xl shadow"
           >
             <div className="flex lg:mt-[32px] md:mt-[12px] mt-2 lg:py-0 items-center md:py-0 py-3">
               <img
@@ -41,7 +41,7 @@ const Bootcamp = () => {
                 Kelas Frontend Engineering
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-4 ml-4 lg:mr-0 md:mr-4  mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 lg:h-24 md:h-20 text-neutral-700 lg:text-base md:text-[11px] text-xs font-light lg:leading-7 md:leading-5 leading-5 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-4 ml-4 lg:mr-0 md:mr-4 mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 lg:h-28 md:h-20 text-neutral-700 lg:text-base md:text-[11px] text-xs font-light lg:leading-7 md:leading-5 leading-5 tracking-tight">
               Belajar pengembangan antarmuka pengguna (UI) dengan bahasa
               pemrograman HTML, CSS, dan JavaScript.
             </div>
@@ -50,7 +50,7 @@ const Bootcamp = () => {
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1500"
-            className="lg:w-96 md:w-[400px] w-full lg:h-56 md:h-44 h-44 bg-white rounded-2xl shadow"
+            className="lg:w-96 md:w-[400px] w-full lg:h-[14.5rem] md:h-44 h-44 bg-white rounded-2xl shadow"
           >
          <div className="flex lg:mt-[32px] md:mt-[12px] mt-2 lg:py-0 items-center md:py-0 py-3">
               <img
@@ -61,7 +61,7 @@ const Bootcamp = () => {
                 Kelas Full-Stack Web Development{" "}
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-4 ml-4 lg:mr-0 md:mr-4  mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 lg:h-24 md:h-20 text-neutral-700 lg:text-base md:text-[11px] text-xs font-light lg:leading-7 md:leading-5 leading-5 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-4 ml-4 lg:mr-0 md:mr-4 mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 lg:h-28 md:h-20 text-neutral-700 lg:text-base md:text-[11px] text-xs font-light lg:leading-7 md:leading-5 leading-5 tracking-tight">
               Belajar pengembangan antarmuka pengguna (UI) dengan HTML, CSS, dan
               JavaScript, serta pengembangan server, database, dan logika
               bisnis.
@@ -72,7 +72,7 @@ const Bootcamp = () => {
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="3000"
-            className="lg:w-96 md:w-[400px] w-full lg:h-56 md:h-44 h-44 bg-white rounded-2xl shadow"
+            className="lg:w-96 md:w-[400px] w-full lg:h-[14.5rem] md:h-44 h-44 bg-white rounded-2xl shadow"
           >
              <div className="flex lg:mt-[32px] md:mt-[12px] mt-2 lg:py-0 items-center md:py-0 py-3">
               <img
@@ -83,7 +83,7 @@ const Bootcamp = () => {
                 Kelas Artificial Intelligence (AI){" "}
               </div>
             </div>
-            <div className="lg:ml-[31.08px] md:ml-4 ml-4 lg:mr-0 md:mr-4  mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 lg:h-24 md:h-20 text-neutral-700 lg:text-base md:text-[11px] text-xs font-light lg:leading-7 md:leading-5 leading-5 tracking-tight">
+            <div className="lg:ml-[31.08px] md:ml-4 ml-4 lg:mr-0 md:mr-4 mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 lg:h-28 md:h-20 text-neutral-700 lg:text-base md:text-[11px] text-xs font-light lg:leading-7 md:leading-5 leading-5 tracking-tight">
               Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
               konsep seperti OCR, Maching Learning DLl
             </div>
