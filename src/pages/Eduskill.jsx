@@ -29,10 +29,10 @@ const Eduskill = () => {
               data-aos-duration="1000"
               className="lg:w-[603px] md:w-[403px] w-full lg:mt-3 md:mt-3 mt-4 lg:text-start leading-10 md:text-start text-start"
             >
-              <span className="text-black lg:text-6xl md:text-4xl text-2xl font-extrabold  capitalize tracking-wide">
+              <span className="text-black lg:text-6xl md:text-4xl text-2xl font-extrabold capitalize tracking-wide">
                 Upgrade Skill Pemrogramanmu Bersama{" "}
               </span>
-              <span className="text-orange-500 lg:text-6xl md:text-4xl text-2xl font-extrabold  capitalize tracking-wide">
+              <span className="text-orange-500 lg:text-6xl md:text-4xl text-2xl font-extrabold capitalize tracking-wide">
                 Eduskill
               </span>
             </div>
@@ -78,7 +78,7 @@ const Eduskill = () => {
           <div
             data-aos="flip-right"
             data-aos-duration="2000"
-            className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px] lg:mx-0 md:mx-0 mx-[20px]"
+            className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px]  lg:mx-0 md:mx-0 mx-[20px]"
           >
             <div className="lg:w-[440px] md:w-[400px] w-full relative">
               <div
