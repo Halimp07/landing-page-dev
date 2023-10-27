@@ -11,8 +11,8 @@ const Marketing = () => {
   return (
     <div className="lg:mb-[50px] md:mb-[50px] mb-[30px] lg:flex md:flex justify-center lg:mx-0 md:mx-0 mx-[20px]">
       <div className="lg:section md:section">
-        <div className="lg:flex md:flex">
-          <div className="w-full lg:h-72 md:h-72 h-full flex-col justify-start items-start lg:gap-6 md:gap-6 gap-3 inline-flex font-['Poppins']">
+        <div className="lg:flex md:flex xl:justify-between lg:justify-start md:justify-start justify-start">
+          <div className="xl:w-[700px] lg:w-full md:w-full w-full lg:h-72 md:h-72 h-full flex-col justify-start items-start lg:gap-6 md:gap-6 gap-3 inline-flex font-['Poppins']">
             <div
               data-aos="fade-right"
               className="lg:mr-20 md:mr-20 mr-14 text-orange-500 lg:text-3xl md:text-3xl text-lg font-bold lg:leading-10 md:leading-10 leading-1 lg:tracking-wide md:tracking-wide tracking-normal"
@@ -34,7 +34,7 @@ const Marketing = () => {
             </div>
           </div>
 
-          <div className="w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
+          <div className="xl:w-[550px] lg:w-full md:w-full w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
             <div
               data-aos="fade-right"
               data-aos-offset="200"
@@ -52,7 +52,7 @@ const Marketing = () => {
                 <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Real Cases, Real Projects
                 </div>
-                <div className="italic lg:w-96 md:w-96 w-[230px] text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
+                <div className="italic xl:w-[26rem] lg:w-96 md:w-96 w-[230px] text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
                   Selain teori, Eduskill juga menawarkan real cases & real
                   projects guna memberikan pengalaman praktik dunia kerja yang
                   nyata.
@@ -77,7 +77,7 @@ const Marketing = () => {
                 <div className="text-teal-600 lg:text-xl md:text-xl text-base font-bold lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Collaborative-Based Learning{" "}
                 </div>
-                <div className="italic g:w-96 md:w-96 w-[230px] text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
+                <div className="italic xl:w-[26rem] lg:w-96 md:w-96 w-[230px] text-neutral-500 lg:text-base md:text-base text-xs font-normal lg:leading-7 md:leading-7 leading-5 tracking-tight">
                   Kolaborasi aktif dalam simulasi nyata melalui project
                   kelompok.
                 </div>
