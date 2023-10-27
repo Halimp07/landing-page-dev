@@ -15,7 +15,7 @@ const Benefit = () => {
       className="w-full section bg-teal-400 lg:my-[50px] md:my-[50px] my-5 lg:mx-auto md:mx-auto mx-0 relative"
     >
       <div className="w-full relative py-[40px] lg:pr-[67px] md:pr-[67px] pr-0 overflow-hidden">
-        <div className="lg:visible md:visible invisible bg-teal-400 h-[25px] w-full rotate-[105deg] absolute z-20 left-[45%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="lg:visible md:visible invisible bg-teal-400 xl:h-[45px] lg:h-[25px] md:h-[25px] w-full rotate-[105deg] absolute z-20 xl:left-[55%] lg:left-[45%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="bg-orange-400 w-[100%] md:ml-[42%] xl:ml-[50%] absolute left-0 lg:top-0 md:top-0 bottom-0 lg:h-full md:full h-1/2 lg:-skew-x-[15deg] md:-skew-x-[15deg] -skew-x-0 z-10"></div>
         <div
           data-aos="fade-left"
@@ -86,7 +86,7 @@ const Benefit = () => {
             </div>
           </div>
         </div>
-        <div className="xl:w-[1324px] md:w-[1080px] w-full lg:h-16 md:h-16 h-[215px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
+        <div className="xl:w-[1600px] md:w-[1080px] w-full lg:h-16 md:h-16 h-[215px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"

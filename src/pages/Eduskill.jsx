@@ -10,7 +10,7 @@ const Eduskill = () => {
   return (
     <div className="w-full lg:h-[592px] md:h-[592px] h-[630px] bg-[#B0E4DE]/40 ">
       <div className="container mx-auto ">
-        <div className="lg:flex md:flex justify-between md:space-x-4">
+        <div className="xl:flex lg:flex md:flex justify-between md:space-x-4">
           <div className="section-1 lg:mt-[68px] md:mt-[68px] mt-0 lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
             <div
               data-aos="fade-down"
@@ -40,7 +40,7 @@ const Eduskill = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="1000"
-              className="lg:mt-5 md:mt-5 mt-3 text-justify font-['Poppins'] "
+              className="xl:w-[650px] lg:w-[600px] md:w-[600px] w-full lg:mt-5 md:mt-5 mt-3 text-justify font-['Poppins'] "
             >
               <span className="text-black text-base font-normal lg:leading-10 md:leading-loose leading-none lg:tracking-tighter md:tracking-tighter tracking-normal">
                 Jadi{" "}
@@ -60,13 +60,13 @@ const Eduskill = () => {
               data-aos-duration="3000"
               className="lg:mt-6 md:mt-6 mt-3"
             >
-              <div className="lg:w-52 md:w-52 w-[164px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
-                <div className="text-center text-white lg:text-lg md:text-lg text-base font-semibold font-[''] leading-9 tracking-tight">
+              <div className="lg:w-52 md:w-52 w-[175px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
+                <div className="text-center text-white lg:text-lg md:text-lg xl:text-[18px] md:text-[18px] text-base font-semibold font-['Poppins'] lg:leading-9 md:leading-9 leading-6 tracking-tight">
                   <a
                     href="http://linktr.ee/eduskill"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-'Poppins'"
+                    className="font-['Poppins']"
                   >
                     Mulai Sekarang!
                   </a>
