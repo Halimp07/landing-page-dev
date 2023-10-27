@@ -20,7 +20,7 @@ const Benefit = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="2000"
-          className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-44 text-base lg:flex md:flex lg:justify-end md:justify-end lg:text-start md:text-start text-center font-extrabold lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
+          className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-52 text-base lg:flex md:flex lg:justify-end md:justify-end lg:text-start md:text-start text-center font-extrabold lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
         >
           Tenang, ada Eduskill Consultant!
         </div>
@@ -68,7 +68,7 @@ const Benefit = () => {
             <img className="xl:w-20 lg:w-20 md:w-16 w-20 h-6" src={eduskill_left} />
           </div>
 
-          <div className="flex-col lg:mt-0 md:mt-0 mt-10 justify-start items-start gap-1 lg:inline-flex md:inline-flex">
+          <div className="flex-col lg:mt-0 md:mt-0 mt-16 justify-start items-start gap-1 lg:inline-flex md:inline-flex">
             <div
               data-aos="fade-down"
               data-aos-duration="2000"
@@ -86,7 +86,7 @@ const Benefit = () => {
             </div>
           </div>
         </div>
-        <div className="xl:w-[1600px] lg:w-[1090px] md:w-[830px] w-full lg:h-9 md:h-16 h-[215px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
+        <div className="xl:w-[1600px] lg:w-[1090px] md:w-[830px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
