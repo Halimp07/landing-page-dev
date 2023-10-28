@@ -80,16 +80,16 @@ const Eduskill = () => {
             data-aos-duration="2000"
             className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px]  lg:mx-0 md:mx-0 mx-[20px]"
           >
-            <div className="lg:w-[440px] md:w-[400px] w-full relative">
+            <div className="xl:w-[440px] lg:w-[380px] md:w-[400px] w-full relative">
               <div
-                className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left lg:h-[285px] md:h-[235px] h-[180px]"
+                className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left xl:h-[285px] lg:h-[255px] md:h-[235px] h-[180px]"
                 style={{
                   backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.7), transparent), url(${hero})`,
                   backgroundPosition: "left 65px center",
                   backgroundSize: "100% 100%",
                 }}
               >
-                <div className="absolute top-0 w-full lg:h-[285px] md:h-[235px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
+                <div className="absolute top-0 w-full xl:h-[285px] lg:h-[255px] md:h-[235px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
                 <div className="lg:left-8 md:left-4 left-3 lg:top-[90px] md:top-[60px] top-[45px] absolute text-white lg:text-xl md:text-base text-base lg:font-bold md:font-bold font-semibold font-['Poppins'] capitalize lg:leading-7 md:leading-7 leading-1 lg:tracking-wide md:tracking-tight tracking-normal">
                   Dari gak percaya diri,
                   <br />
@@ -98,7 +98,7 @@ const Eduskill = () => {
                     menginspirasi
                   </span>
                 </div>
-                <div className="lg:left-8 md:left-4 left-3 lg:top-[220px] md:top-[170px] top-[125px] font-['Poppins'] absolute">
+                <div className="lg:left-8 md:left-4 left-3 xl:top-[220px] lg:top-[200px] md:top-[170px] top-[125px] font-['Poppins'] absolute">
                   <span className="text-white lg:text-base md:text-sm text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Saatnya
                   </span>

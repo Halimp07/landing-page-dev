@@ -86,7 +86,7 @@ const Benefit = () => {
             </div>
           </div>
         </div>
-        <div className="2xl:w-[1575px] xl:w-[1260px] lg:w-[1090px] md:w-[830px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
+        <div className="2xl:w-[1575px] xl:w-[1260px] lg:w-full md:w-[830px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
