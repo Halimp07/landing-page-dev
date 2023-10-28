@@ -72,7 +72,7 @@ const Bootcamp = () => {
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="3000"
-            className="lg:w-96 md:w-[400px] w-full lg:h-[14.5rem] md:h-44 h-44 bg-white rounded-2xl shadow"
+            className="xl:w-96 lg:w-96 md:w-[400px] w-full lg:h-[14.5rem] md:h-44 h-44 bg-white rounded-2xl shadow"
           >
              <div className="flex lg:mt-[32px] md:mt-[12px] mt-2 lg:py-0 items-center md:py-0 py-3">
               <img

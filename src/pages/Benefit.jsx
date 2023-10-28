@@ -12,15 +12,15 @@ const Benefit = () => {
     <div
       data-aos="fade-down"
       data-aos-duration="1000"
-      className="w-full section bg-teal-400 lg:my-[50px] md:my-[30px] my-5 lg:mx-auto md:mx-auto mx-0 relative"
+      className="w-full section bg-teal-400 lg:my-[50px] md:my-[30px] my-5 lg:mx-auto md:mx-auto mx-auto relative"
     >
-      <div className="w-full relative py-[40px] xl:pr-[67px] lg:pr-[57px] md:pr-[50px] pr-0 overflow-hidden">
+      <div className="w-full relative py-[40px] xl:pr-[85px] lg:pr-[80px] md:pr-[50px] pr-0 overflow-hidden">
         <div className="lg:visible md:visible invisible bg-teal-400 xl:h-[45px] lg:h-[20px] md:h-[25px] w-full rotate-[105deg] absolute z-20 xl:left-[50%] lg:left-[43.5%] md:left-[47%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="bg-orange-400 w-[100%] xl:ml-[45%] lg:ml-[41%] md:ml-[42%] absolute left-0 lg:top-0 md:top-0 bottom-0 lg:h-full md:h-full h-1/2 lg:-skew-x-[15deg] md:-skew-x-[15deg] -skew-x-0 z-10"></div>
         <div
           data-aos="fade-left"
           data-aos-duration="2000"
-          className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-52 text-base lg:flex md:flex lg:justify-end md:justify-end lg:text-start md:text-start text-center font-extrabold lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
+          className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-52 text-base xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
         >
           Tenang, ada Eduskill Consultant!
         </div>
@@ -30,7 +30,7 @@ const Benefit = () => {
             key={item.id}
             data-aos="fade-left"
             data-aos-duration="2000"
-            className="flex lg:justify-end md:justify-end justify-between lg:px-0 md:px-0 px-16 space-x-3 relative z-20"
+            className="flex lg:justify-end md:justify-end justify-between xl:px-0 lg:px-0 md:px-0 px-16 space-x-3 relative z-20"
           >
             <div>
               {item.textLabel && (
@@ -47,7 +47,7 @@ const Benefit = () => {
                       <img
                         src={element.icon}
                         alt="Check Icon"
-                        className="lg:w-7 md:w-5 w-5"
+                        className="xl:w-7 lg:w-7 md:w-5 w-5"
                       />
                     </div>
                   ))}
@@ -86,30 +86,30 @@ const Benefit = () => {
             </div>
           </div>
         </div>
-        <div className="2xl:w-[1575px] xl:w-[1260px] lg:w-full md:w-[830px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
+        <div className="2xl:w-[1575px] xl:w-full lg:w-full md:w-[815px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
-            className="w-16 h-16 absolute left-0"
+            className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute left-0"
           >
             <button>
               <img
                 src={prev}
                 alt=""
-                className="lg:w-16 md:w-16 w-12 lg:h-16 md:h-16 h-12  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               />
             </button>
           </div>
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
-            className="w-16 h-16 absolute right-0"
+            className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute right-0"
           >
             <button>
               <img
                 src={next}
                 alt=""
-                className="lg:w-16 md:w-16 w-12 lg:h-16 md:h-16 h-12 absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2"
+                className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2"
               />
             </button>
           </div>
