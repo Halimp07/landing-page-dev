@@ -59,7 +59,7 @@ const Benefit = () => {
           ))}
         </div>
 
-        <div className="bg-teal-400 absolute h-full w-4/5 top-0">
+        <div className="bg-teal-400 absolute h-full 2xl:w-4/5 xl:w-4/5 lg:w-4/5 md:w-4/5 w-full top-0">
           <div
             data-aos="fade-right"
             data-aos-duration="3000"
