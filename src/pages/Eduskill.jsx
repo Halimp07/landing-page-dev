@@ -7,11 +7,12 @@ const Eduskill = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
-    <div className="w-full lg:h-[592px] md:h-[750px] h-[630px] bg-[#B0E4DE]/40 ">
-      <div className="container mx-auto ">
-        <div className="xl:flex lg:flex md:block block justify-between md:space-x-4">
-          <div className="section-1 lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
+    <div className="w-full xl:h-[592px] lg:h-[592px] md:h-[750px] h-[630px] bg-[#B0E4DE]/40 ">
+      <div className="container mx-auto">
+        <div className="2xl:mx-0 xl:mx-20 lg:mx-0 md:mx-0 mx-0 xl:flex lg:flex md:block block justify-between md:space-x-4">
+          <div className="lg:pt-0 md:pt-0 pt-3 lg:mx-0 md:mx-0 mx-[20px]">
             <div
               data-aos="fade-down"
               data-aos-duration="1000"

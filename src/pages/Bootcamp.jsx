@@ -10,7 +10,10 @@ const Bootcamp = () => {
 
   return (
     <div className="w-full bg-orange-200 bg-opacity-20 lg:flex md:flex lg:justify-center md:justify-center justify-start">
-      <div className="lg:section md:section lg:my-[70px] md:my-[40px] my-[30px] lg:mx-0 md:mx-0 mx-5 flex-col lg:gap-[50px] md:gap-[25px] gap-0 inline-flex">
+      <div className="lg:section md:section lg:my-[70px] md:my-[40px] my-[30px]">
+      <div className="2xl:mx-0 xl:mx-20 lg:mx-0 md:mx-0 mx-5">
+        <div className="flex-col">
+
         <div
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
@@ -26,7 +29,7 @@ const Bootcamp = () => {
           </div>
         </div>
 
-        <div className="lg:flex md:flex lg:space-x-5 md:space-x-5 space-x-0 justify-start items-center">
+        <div className="2xl:mt-[50px] xl:mt-[50px] lg:mt-4 mt-5 lg:flex md:flex lg:space-x-5 md:space-x-5 space-x-0 2xl:space-y-0 xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-4 2xl:justify-between xl:justify-start lg:justify-start md:justify-start justify-start items-center">
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
@@ -89,6 +92,8 @@ const Bootcamp = () => {
             </div>
           </div>
         </div>
+        </div>
+      </div>
       </div>
     </div>
   );

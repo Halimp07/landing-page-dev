@@ -11,11 +11,11 @@ const Marketing = () => {
   return (
     <div className="lg:mb-[50px] md:mb-[30px] mb-[30px] lg:flex md:flex justify-center lg:mx-0 md:mx-0 mx-[20px]">
       <div className="lg:section md:section">
-        <div className="lg:flex md:flex xl:justify-between lg:justify-start md:justify-start justify-start">
-          <div className="xl:w-[700px] lg:w-full md:w-full w-full lg:h-72 md:h-full h-full flex-col justify-start items-start lg:gap-6 md:gap-6 gap-3 inline-flex font-['Poppins']">
+        <div className="2xl:mx-0 xl:mx-20 lg:mx-0 md:mx-0 mx-0 lg:flex md:flex xl:justify-between lg:justify-start md:justify-start justify-start">
+          <div className="xl:w-[700px] lg:w-full md:w-full w-full 2xl:h-full xl:h-ful lg:h-full md:h-full h-full flex-col justify-start items-start lg:gap-6 md:gap-6 gap-3 inline-flex font-['Poppins']">
             <div
               data-aos="fade-right"
-              className="lg:mr-20 md:mr-10 mr-14 text-orange-500 lg:text-3xl md:text-2xl text-lg font-bold lg:leading-10 md:leading-8 leading-1 lg:tracking-wide md:tracking-wide tracking-normal"
+              className="2xl:mr-20 xl:mr-20 lg:mr-16 md:mr-10 mr-14 text-orange-500 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl text-lg font-bold 2xl:leading-10 xl:leading-10 lg:leading-8 md:leading-8 leading-1 lg:tracking-wide md:tracking-wide tracking-normal"
             >
               Mengapa Eduskill menjadi Pilihan Terbaik untuk Upskilling?
             </div>
@@ -23,7 +23,7 @@ const Marketing = () => {
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1000"
-              className=" text-black lg:text-lg md:text-base text-base text-start font-light xl:leading-normal lg:leading-normal md:leading-snug leading-normal tracking-tight"
+              className="2xl:w-[70%] xl:w-[90%] lg:w-full md:w-full w-full text-black 2xl:text-lg xl:text-lg lg:text-base md:text-base text-base text-start font-light 2xl:leading-normal xl:leading-normal lg:leading-snug md:leading-snug leading-normal tracking-tight"
             >
               Eduskill Berfokus pada bidang Pemrograman dan AI berbasis Real
               Project Industri

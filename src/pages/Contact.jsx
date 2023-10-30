@@ -12,7 +12,7 @@ const Contact = () => {
     <div className="w-full lg:h-72 md:h-56 h-56 bg-teal-600 flex justify-center relative">
       <div className="lg:section md:section flex justify-center">
         <img
-          className="w-full lg:h-[283px] md:h-[225px] h-full absolute right-0 left-0 top-0"
+          className="w-full h-full absolute right-0 left-0 top-0"
           src={bg_overlay}
         />
         <div className="lg:h-72 md:h-56 h-56 py-12 flex-col justify-center items-center gap-6 inline-flex">
@@ -22,6 +22,7 @@ const Contact = () => {
           >
             Mau Request Kelas Untuk Lembaga pendidikan mu? Bisa Dong
           </div>
+          
           <div
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
@@ -40,7 +41,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </div>
   );
 };
