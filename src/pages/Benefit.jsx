@@ -59,6 +59,35 @@ const Benefit = () => {
           ))}
         </div>
 
+        <div className="2xl:invisible xl:invisible lg:invisible md:invisible visible 2xl:w-[1575px] xl:w-[1170px] lg:w-full md:w-[815px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform  -translate-x-1/2 -translate-y-1/2 top-1/2">
+          
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute left-0"
+          >
+            <button>
+              <img
+                src={prev}
+                alt=""
+                className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              />
+            </button>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute right-0"
+          >
+            <button>
+              <img
+                src={next}
+                alt=""
+                className="xl:w-16 lg:w-14 md:w-12 w-12 xl:h-16 lg:h-14 md:h-12 h-12 absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2"
+              />
+            </button>
+          </div>
+        </div>
         <div className="bg-teal-400 absolute h-full 2xl:w-4/5 xl:w-4/5 lg:w-4/5 md:w-4/5 w-full top-0">
           <div
             data-aos="fade-right"
@@ -91,7 +120,7 @@ const Benefit = () => {
           </div>
         </div>
 
-        <div className="2xl:w-[1575px] xl:w-[1170px] lg:w-full md:w-[815px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
+        <div className="2xl:visible xl:visible lg:visible md:visible invisible 2xl:w-[1575px] xl:w-[1170px] lg:w-full md:w-[815px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"

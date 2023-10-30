@@ -10,7 +10,7 @@ const Bootcamp = () => {
 
   return (
     <div className="w-full bg-orange-200 bg-opacity-20 lg:flex md:flex lg:justify-center md:justify-center justify-start">
-      <div className="lg:section md:section lg:my-[70px] md:my-[40px] my-[30px]">
+      <div className="2xl:section xl:section lg:section md:section lg:my-[70px] md:my-[40px] my-[30px]">
       <div className="2xl:mx-0 xl:mx-20 lg:mx-0 md:mx-0 mx-5">
         <div className="flex-col">
 
