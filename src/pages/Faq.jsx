@@ -73,7 +73,7 @@ const Faq = () => {
               // data-aos-easing="ease-in-back"
               // data-aos-delay="50"
               // data-aos-offset="0"
-                className="lg:w-full md:w-full w-[290px] lg:h-20 md:h-20 h-[5rem] lg:px-6 md:px-8 px-8 bg-emerald-50 rounded-tr rounded-br border-l-2 border-teal-700 justify-center items-center inline-flex"
+                className="w-full lg:h-20 md:h-20 h-[5rem] lg:px-6 md:px-8 px-8 bg-emerald-50 rounded-tr rounded-br border-l-2 border-teal-700 justify-center items-center inline-flex"
               >
                 <div className="lg:w-full md:w-full w-[290px] text-black lg:text-base md:text-sm text-[11px] font-normal font-['Poppins'] leading-normal tracking-tight">
                   {item.answer}
