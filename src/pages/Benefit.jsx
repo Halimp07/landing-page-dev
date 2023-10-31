@@ -15,7 +15,7 @@ const Benefit = () => {
       className="w-full bg section lg:my-[50px] md:my-[30px] my-5 lg:mx-auto md:mx-auto mx-auto relative"
     >
       <div className="2xl:mx-0 xl:mx-20 lg:mx-10 md:mx-0 mx-5">
-        <div className="w-full relative bg-teal-400 2xl:py-[40px] xl:py-[40px] lg:py-[40px] md:py-[40px] py-10 2xl:pr-[85px] xl:pr-[60px] lg:pr-[80px] md:pr-[50px] pr-0 overflow-hidden">
+        <div className="w-full relative bg-teal-400 2xl:py-[40px] xl:py-[40px] lg:py-[40px] md:py-[40px] py-7 2xl:pr-[85px] xl:pr-[60px] lg:pr-[80px] md:pr-[50px] pr-0 overflow-hidden">
           <div className="absolute left-0 w-full top-0">
           <div
             data-aos="fade-right"
@@ -32,14 +32,14 @@ const Benefit = () => {
               <div
                 data-aos="fade-down"
                 data-aos-duration="2000"
-                className="lg:w-96 md:w-96 w-44 lg:h-28 md:h-14 h-36 flex-col lg:mx-0 md:mx-0 mx-auto justify-start items-start gap-1 lg:inline-flex md:inline-flex"
+                className="lg:w-96 md:w-96 w-44 lg:h-28 md:h-14 h-full flex-col lg:mx-0 md:mx-0 mx-auto justify-start items-start gap-1 lg:inline-flex md:inline-flex"
               >
                 <div className="lg:text-start text-center px-2 py-0.5 bg-orange-400 lg:mx-0 md:mx-0 mx-auto justify-center items-center gap-2.5 lg:inline-flex md:inline-flex">
                   <div className="text-white lg:text-lg md:text-sm text-sm sm:text-center font-extrabold font-['Poppins'] capitalize leading-9 tracking-tight">
                     Mau ikut bootcamp
                   </div>
                 </div>
-                <div className="lg:w-96 md:w-96 w-full h-28 lg:text-start md:text-start sm:text-center text-center text-white lg:text-4xl md:text-2xl text-base font-extrabold font-['Poppins'] capitalize lg:leading-10 md:leading-7 leading-7 tracking-wide">
+                <div className="lg:w-96 md:w-96 w-full h-full lg:text-start md:text-start sm:text-center text-center text-white lg:text-4xl md:text-2xl text-base font-extrabold font-['Poppins'] capitalize lg:leading-10 md:leading-7 leading-7 tracking-wide">
                   tapi takut salah <br />
                   pilih course?
                 </div>
@@ -52,7 +52,7 @@ const Benefit = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="2000"
-            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-60 text-base xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
+            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-56 text-base xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
           >
             Tenang, ada Eduskill Consultant!
           </div>
