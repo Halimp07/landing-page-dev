@@ -15,7 +15,7 @@ const Benefit = () => {
       className="w-full bg section lg:my-[50px] md:my-[30px] my-5 lg:mx-auto md:mx-auto mx-auto relative"
     >
       <div className="2xl:mx-0 xl:mx-20 lg:mx-10 md:mx-0 mx-5">
-        <div className="w-full relative bg-teal-400 py-[40px] 2xl:pr-[85px] xl:pr-[60px] lg:pr-[80px] md:pr-[50px] pr-0 overflow-hidden">
+        <div className="w-full relative bg-teal-400 2xl:py-[40px] xl:py-[40px] lg:py-[40px] md:py-[40px] py-10 2xl:pr-[85px] xl:pr-[60px] lg:pr-[80px] md:pr-[50px] pr-0 overflow-hidden">
           <div className="absolute left-0 w-full top-0">
           <div
             data-aos="fade-right"
@@ -48,11 +48,11 @@ const Benefit = () => {
           </div>
         </div>
           <div className="lg:visible md:visible invisible bg-teal-400 2xl:h-[45px] xl:h-[35px] lg:h-[20px] md:h-[25px] w-full rotate-[105deg] absolute z-20 2xl:left-[50%] xl:left-[43%] lg:left-[43.5%] md:left-[47%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
-          <div className="bg-orange-400 w-[100%] 2xl:ml-[45%] xl:ml-[38%] lg:ml-[41%] md:ml-[42%] absolute left-0 lg:top-0 md:top-0 bottom-0 lg:h-full md:h-full h-1/2 lg:-skew-x-[15deg] md:-skew-x-[15deg] -skew-x-0 z-10"></div>
+          <div className="bg-orange-400 w-[100%] 2xl:ml-[45%] xl:ml-[38%] lg:ml-[41%] md:ml-[42%] absolute left-0 lg:top-0 md:top-0 bottom-0 lg:h-full md:h-full h-1/2 lg:-skew-x-[15deg] md:-skew-x-[15deg]-skew-x-0 z-10"></div>
           <div
             data-aos="fade-left"
             data-aos-duration="2000"
-            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-72 text-base xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
+            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-60 text-base xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
           >
             Tenang, ada Eduskill Consultant!
           </div>

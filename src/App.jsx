@@ -1,15 +1,23 @@
-import {  Eduskill, Benefit, Marketing, Bootcamp, Faq, Contact, Footer } from "./index";
+import {
+  Eduskill,
+  Benefit,
+  Marketing,
+  Bootcamp,
+  Faq,
+  Contact,
+  Footer,
+} from "./index";
 
 const App = () => {
   return (
     <div>
-        <Eduskill />
-        <Benefit />
-        <Marketing />
-        <Bootcamp />
-        <Contact />
-         <Faq /> 
-        <Footer />
+      <Eduskill />
+      <Benefit />
+      <Marketing />
+      <Bootcamp />
+      <Contact />
+      <Faq />
+      <Footer />
     </div>
   );
 };
