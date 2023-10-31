@@ -52,7 +52,7 @@ const Benefit = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="2000"
-            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg lg:mt-4 md:mt-0 mt-56 text-base xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
+            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg text-sm lg:mt-4 md:mt-0 mt-56 xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
           >
             Tenang, ada Eduskill Consultant!
           </div>
@@ -66,7 +66,7 @@ const Benefit = () => {
             >
               <div>
                 {item.textLabel && (
-                  <div className="lg:text-right md:text-right text-center text-white lg:text-lg md:text-sm text-sm font-normal font-['Poppins'] capitalize leading-loose tracking-tight my-auto">
+                  <div className="lg:text-right md:text-right text-center text-white lg:text-lg md:text-sm text-xs font-normal font-['Poppins'] capitalize leading-loose tracking-tight my-auto">
                     {item.textLabel}
                   </div>
                 )}
@@ -79,7 +79,7 @@ const Benefit = () => {
                         <img
                           src={element.icon}
                           alt="Check Icon"
-                          className="xl:w-7 lg:w-7 md:w-5 w-5"
+                          className="xl:w-7 lg:w-7 md:w-5 w-[14px]"
                         />
                       </div>
                     ))}
