@@ -79,9 +79,9 @@ const Eduskill = () => {
           <div
             data-aos="flip-right"
             data-aos-duration="2000"
-            className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px]  lg:mx-0 md:mx-0 mx-[20px]"
+            className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px] lg:mx-0 md:mx-0 mx-[20px]"
           >
-            <div className="2xl:w-[440px] xl:w-[440px] lg:w-[350px] md:w-[400px] w-full relative">
+            <div className="2xl:w-[440px] xl:w-[440px] lg:w-[350px] md:w-[400px] w-[290px] relative">
               <div
                 className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left 2xl:h-[285px] xl:h-[285px] lg:h-[220px] md:h-[235px] h-[180px]"
                 style={{
@@ -91,7 +91,7 @@ const Eduskill = () => {
                 }}
               >
                 <div className="absolute top-0 w-full 2xl:h-[285px] xl:h-[285px] lg:h-[220px] md:h-[235px] h-[180px] bg-gradient-to-r from-orange-400 lg:rounded-3xl md:rounded-3xl rounded-2xl"></div>
-                <div className="2xl:left-8 xl:left-8 lg:left-5 md:left-4 left-3 2xl:top-[90px] xl:top-[90px] lg:top-[60px] md:top-[60px] top-[45px] absolute text-white 2xl:text-xl xl:text-xl lg:text-lg md:text-base text-base lg:font-bold md:font-bold font-semibold font-['Poppins'] capitalize 2xl:leading-7 xl:leading-7 lg:leading-6 md:leading-7 leading-1 lg:tracking-wide md:tracking-tight tracking-normal">
+                <div className="2xl:left-8 xl:left-8 lg:left-5 md:left-4 left-3 2xl:top-[90px] xl:top-[90px] lg:top-[60px] md:top-[60px] top-[40px] absolute text-white 2xl:text-xl xl:text-xl lg:text-lg md:text-base text-sm lg:font-bold md:font-bold font-semibold font-['Poppins'] capitalize 2xl:leading-7 xl:leading-7 lg:leading-6 md:leading-7 leading-1 lg:tracking-wide md:tracking-tight tracking-normal">
                   Dari gak percaya diri,
                   <br />
                   <span>
@@ -100,20 +100,20 @@ const Eduskill = () => {
                   </span>
                 </div>
                 <div className=" 2xl:left-8 xl:left-8 lg:left-5 md:left-4 left-3 2xl:top-[220px] xl:top-[220px] lg:top-[160px] md:top-[170px] top-[125px] font-['Poppins'] absolute">
-                  <span className="text-white 2xl:text-base xl:text-base lg:text-sm md:text-sm text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
+                  <span className="text-white 2xl:text-base xl:text-base lg:text-sm md:text-sm text-xs font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Saatnya
                   </span>
-                  <span className="text-white  2xl:text-base xl:text-base lg:text-sm text-sm font-bold lg:leading-tight md:leading-tight leading-none tracking-tight">
+                  <span className="text-white 2xl:text-base xl:text-base lg:text-sm text-xs 2xl:font-bold xl:font-bold lg:font-bold md:font-bold font-semibold lg:leading-tight md:leading-tight leading-none tracking-tight">
                     {" "}
                     #MulaiUpskilling
                     <br />
                   </span>
-                  <span className="text-white  2xl:text-base xl:text-base lg:text-sm text-sm font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
+                  <span className="text-white 2xl:text-base xl:text-base lg:text-sm md:text-sm text-xs font-medium lg:leading-tight md:leading-tight leading-none tracking-tight">
                     Bersama Eduskill
                   </span>
                 </div>
                 <img
-                  className="2xl:w-44 xl:w-44 lg:w-28 md:w-32 w-28 2xl:h-14 xl:h-14 lg:h-10 md:h-11 h-10 2xl:left-8 xl:left-8 lg:left-5 md:left-4 left-3 2xl:top-5 xl:top-5 lg:top-4 md:top-3 top-1 absolute"
+                  className="2xl:w-44 xl:w-44 lg:w-28 md:w-32 w-24 2xl:h-14 xl:h-14 lg:h-10 md:h-11 h-9 2xl:left-8 xl:left-8 lg:left-5 md:left-4 left-3 2xl:top-5 xl:top-5 lg:top-4 md:top-3 top-1 absolute"
                   src={logo}
                 />
               </div>
