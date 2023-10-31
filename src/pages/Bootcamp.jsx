@@ -9,7 +9,7 @@ const Bootcamp = () => {
   }, []);
 
   return (
-    <div className="w-full bg-orange-200 bg-opacity-20 lg:flex md:flex lg:justify-center md:justify-center justify-start">
+    <div className="w-full bg-orange-200 bg-opacity-20 2xl:pb-0 xl:pb-0 lg:pb-0 md:pb-0 pb-2 lg:flex md:flex lg:justify-center md:justify-center justify-start">
       <div className="2xl:section xl:section lg:section md:section lg:my-[70px] md:my-[40px] my-[30px]">
         <div className="2xl:mx-0 xl:mx-20 lg:mx-[85px] md:mx-0 mx-5">
           <div className="flex-col">
