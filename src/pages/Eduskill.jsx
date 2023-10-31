@@ -43,13 +43,13 @@ const Eduskill = () => {
               data-aos-duration="1000"
               className="xl:w-[650px] lg:w-[600px] md:w-[600px] w-full lg:mt-5 md:mt-5 mt-3 text-justify font-['Poppins'] "
             >
-              <span className="text-black text-base font-normal lg:leading-10 md:leading-loose leading-none lg:tracking-tighter md:tracking-tighter tracking-normal">
+              <span className="text-black text-base font-normal lg:leading-10 md:leading-loose leading-none 2xl:tracking-tighter xl:tracking-tight  lg:tracking-tighter md:tracking-tighter tracking-normal">
                 Jadi{" "}
               </span>
-              <span className="text-black text-base font-bold lg:leading-10 md:leading-loose leading-none lg:tracking-tighter md:tracking-tighter tracking-normal">
+              <span className="text-black text-base font-bold lg:leading-10 md:leading-loose leading-none 2xl:tracking-tighter xl:tracking-tight  lg:tracking-tighter md:tracking-tighter tracking-normal">
                 #SelangkahdiDepan
               </span>
-              <span className="text-black text-base font-normal lg:leading-10 md:leading-loose leading-none lg:tracking-tighter md:tracking-tighter tracking-normal">
+              <span className="text-black text-base font-normal lg:leading-10 md:leading-loose leading-none 2xl:tracking-tighter xl:tracking-tight  lg:tracking-tighter md:tracking-tighter tracking-normal">
                 {" "}
                 kuasai digital skills dengan metode belajar yang fun! Dapatkan
                 materi sesuai kebutuhan industri dan disiapkan daftar kerja
@@ -61,18 +61,17 @@ const Eduskill = () => {
               data-aos-duration="3000"
               className="lg:mt-6 md:mt-6 mt-3"
             >
-              <div className="2xl:w-52 xl:w-52 lg:w-48 md:w-48 w-[175px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
-                <div className="text-center text-white 2xl:text-lg xl:text-lg lg:text-base md:text-sm xl:text-[18px] md:text-[18px] text-base font-semibold font-['Poppins'] lg:leading-9 md:leading-9 leading-6 tracking-tight">
-                  <a
-                    href="http://linktr.ee/eduskill"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-['Poppins']"
-                  >
+              <a
+                href="http://linktr.ee/eduskill"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="2xl:w-52 xl:w-52 lg:w-48 md:w-48 w-[175px] h-14 px-6 lg:py-3 md:py-3 py-2 bg-orange-400 rounded-xl justify-center items-center gap-2.5 inline-flex">
+                  <div className="text-center text-white 2xl:text-lg xl:text-lg lg:text-base md:text-sm xl:text-[18px] md:text-[18px] text-base font-semibold font-['Poppins'] lg:leading-9 md:leading-9 leading-6 tracking-tight">
                     Mulai Sekarang!
-                  </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
@@ -81,7 +80,7 @@ const Eduskill = () => {
             data-aos-duration="2000"
             className="flex justify-start lg:mt-[125px] md:mt-[45px] mt-[40px] lg:mx-0 md:mx-0 mx-[20px]"
           >
-            <div className="2xl:w-[440px] xl:w-[440px] lg:w-[350px] md:w-[400px] w-[290px] relative">
+            <div className="2xl:ml-0 xl:ml-10 lg:ml-0 md:ml-0 ml-0  2xl:w-[440px] xl:w-[440px] lg:w-[350px] md:w-[400px] w-[290px] relative">
               <div
                 className="relative flex items-end justify-start bg-contain bg-no-repeat lg:rounded-3xl md:rounded-3xl rounded-2xl text-left 2xl:h-[285px] xl:h-[285px] lg:h-[220px] md:h-[235px] h-[180px]"
                 style={{

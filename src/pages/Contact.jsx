@@ -23,6 +23,11 @@ const Contact = () => {
             Mau Request Kelas Untuk Lembaga pendidikan mu? Bisa Dong
           </div>
           
+          <a
+            href="https://wa.me/62895414873950"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <div
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
@@ -31,15 +36,10 @@ const Contact = () => {
             className="px-6 2xl:py-3 xl:py-3 lg:py-2 md:py-2 py-2 bg-orange-400 2xl:rounded-xl xl:rounded-xl lg:rounded-lg md:rounded-lg rounded-xl justify-center items-center lg:gap-2 md:gap-0 gap-0 inline-flex relative"
           >
             <div className="text-center text-white 2xl:text-lg xl:text-lg lg:text-base md:text-base text-base font-semibold font-['Poppins'] leading-9 tracking-tight">
-              <a
-                href="https://wa.me/62895414873950"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
                 Hubungi Kami
-              </a>
             </div>
           </div>
+              </a>
         </div>
         </div>
     </div>
