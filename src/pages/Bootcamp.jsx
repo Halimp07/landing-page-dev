@@ -32,7 +32,7 @@ const Bootcamp = () => {
               <div
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
-                className="lg:w-96 md:w-[400px] w-full 2xl:h-[14.5rem] xl:h-[14.5rem] lg:h-44 md:h-44 h-40 bg-white rounded-2xl shadow"
+                className="lg:w-96 md:w-[400px] w-full 2xl:h-[14.5rem] xl:h-[14.5rem] lg:h-44 md:h-44 h-[170px] bg-white rounded-2xl shadow 2xl:py-0 xl:py-0 lg:py-0 md:py-0 py-0"
               >
                 <div className="flex 2xl:mt-[32px] xl:mt-[32px] lg:mt-2 md:mt-3 mt-2 lg:py-0 items-center md:py-0 py-3">
                   <img
@@ -52,7 +52,7 @@ const Bootcamp = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="1500"
-                className="lg:w-96 md:w-[400px] w-full 2xl:h-[14.5rem] xl:h-[14.5rem] lg:h-44 md:h-44 h-40 bg-white rounded-2xl shadow"
+                className="lg:w-96 md:w-[400px] w-full 2xl:h-[14.5rem] xl:h-[14.5rem] lg:h-44 md:h-44 h-[170px] bg-white rounded-2xl shadow 2xl:py-0 xl:py-0 lg:py-0 md:py-0 py-0"
               >
                 <div className="flex 2xl:mt-[32px] xl:mt-[32px] lg:mt-2 md:mt-3 mt-2 lg:py-0 items-center md:py-0 py-3">
                   <img
@@ -74,7 +74,7 @@ const Bootcamp = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="3000"
-                className="lg:w-96 md:w-[400px] w-full 2xl:h-[14.5rem] xl:h-[14.5rem] lg:h-44 md:h-44 h-40 bg-white rounded-2xl shadow"
+                className="lg:w-96 md:w-[400px] w-full 2xl:h-[14.5rem] xl:h-[14.5rem] lg:h-44 md:h-44 h-[170px] bg-white rounded-2xl shadow 2xl:py-0 xl:py-0 lg:py-0 md:py-0 py-0"
               >
                 <div className="flex 2xl:mt-[32px] xl:mt-[32px] lg:mt-2 md:mt-3 mt-2 lg:py-0 items-center md:py-0 py-3">
                   <img
