@@ -20,10 +20,10 @@ const Benefit = () => {
           <div
             data-aos="fade-right"
             data-aos-duration="3000"
-            className="z-20 2xl:py-2.5 xl:py-2 lg:py-2.5 md:py-1 py-2.5 left-0 top-0 absolute bg-white rounded-tr-full rounded-br-full flex-col justify-start items-start gap-2.5 inline-flex"
+            className="z-20 2xl:py-2.5 xl:py-2 lg:py-1.5 md:py-1 py-2.5 left-0 top-0 absolute bg-white rounded-tr-full rounded-br-full flex-col justify-start items-start gap-2.5 inline-flex"
           >
             <img
-              className="2xl:w-20 xl:w-16 lg:w-20 md:w-16 w-20 2xl:h-6 xl:h-5 lg:h-6 md:h-6 h-6"
+              className="2xl:w-20 xl:w-16 lg:w-16 md:w-16 w-20 2xl:h-6 xl:h-5 lg:h-6 md:h-6 h-6"
               src={eduskill_left}
             />
           </div>
@@ -35,11 +35,11 @@ const Benefit = () => {
                 className="lg:w-96 md:w-96 w-44 lg:h-28 md:h-14 h-full flex-col lg:mx-0 md:mx-0 mx-auto justify-start items-start gap-1 lg:inline-flex md:inline-flex"
               >
                 <div className="lg:text-start text-center px-2 py-0.5 bg-orange-400 lg:mx-0 md:mx-0 mx-auto justify-center items-center gap-2.5 lg:inline-flex md:inline-flex">
-                  <div className="text-white lg:text-lg md:text-sm text-sm sm:text-center font-extrabold font-['Poppins'] capitalize leading-9 tracking-tight">
+                  <div className="text-white lg:text-base md:text-sm text-sm sm:text-center font-extrabold font-['Poppins'] capitalize leading-9 tracking-tight">
                     Mau ikut bootcamp
                   </div>
                 </div>
-                <div className="lg:w-96 md:w-96 w-full h-full lg:text-start md:text-start sm:text-center text-center text-white lg:text-4xl md:text-2xl text-base font-extrabold font-['Poppins'] capitalize lg:leading-10 md:leading-7 leading-7 tracking-wide">
+                <div className="lg:w-96 md:w-96 w-full h-full lg:text-start md:text-start sm:text-center text-center text-white lg:text-2xl md:text-2xl text-base font-extrabold font-['Poppins'] capitalize lg:leading-10 md:leading-7 leading-7 tracking-wide">
                   tapi takut salah <br />
                   pilih course?
                 </div>
@@ -52,7 +52,7 @@ const Benefit = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="2000"
-            className=" text-white xl:text-[27px] lg:text-[25px] md:text-lg text-sm lg:mt-4 md:mt-0 mt-56 xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-10 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
+            className=" text-white xl:text-[27px] lg:text-xl md:text-lg text-sm lg:mt-4 md:mt-0 mt-56 xl:flex lg:flex md:flex flex lg:justify-end md:justify-end justify-center xl:text-start lg:text-start md:text-start text-center font-extrabold xl:mr-10 lg:mr-8 md:mr-10 mr-0 font-['Poppins'] capitalize leading-loose tracking-wide relative z-20"
           >
             Tenang, ada Eduskill Consultant!
           </div>
@@ -66,7 +66,7 @@ const Benefit = () => {
             >
               <div>
                 {item.textLabel && (
-                  <div className="lg:text-right md:text-right text-center text-white lg:text-lg md:text-sm text-xs font-normal font-['Poppins'] capitalize leading-loose tracking-tight my-auto">
+                  <div className="lg:text-right md:text-right text-center text-white lg:text-base md:text-sm text-xs font-normal font-['Poppins'] capitalize leading-loose tracking-tight my-auto">
                     {item.textLabel}
                   </div>
                 )}
@@ -79,7 +79,7 @@ const Benefit = () => {
                         <img
                           src={element.icon}
                           alt="Check Icon"
-                          className="xl:w-7 lg:w-7 md:w-5 w-[14px]"
+                          className="2xl:w-7 xl:w-7 lg:w-5 md:w-5 w-[14px]"
                         />
                       </div>
                     ))}

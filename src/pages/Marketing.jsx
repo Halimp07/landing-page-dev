@@ -34,12 +34,12 @@ const Marketing = () => {
             </div>
           </div>
 
-          <div className="xl:w-[550px] lg:w-full md:w-[400px] w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
+          <div className="xl:w-[550px] lg:w-60% md:w-[400px] w-full flex-col lg:gap-6 md:gap-6 gap-3 inline-flex items-start lg:mt-0 md:mt-0 mt-8">
             <div
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
-              className="w-full lg:h-40 md:h-28 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex"
+              className="w-full 2xl:h-40 xl:h-40 lg:h-36 md:h-28 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex"
             >
               <div className="flex justify-center items-center lg:w-16 md:w-14 w-12 lg:h-16 md:h-14 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-emerald-200 rounded-full">
                 <img
@@ -48,11 +48,11 @@ const Marketing = () => {
                   className="lg:w-14 md:w-11 w-9 lg:h-14 md:h-11 h-9 rounded-full"
                 />
               </div>{" "}
-              <div className="flex-col justify-start items-st4art gap-1 inline-flex font-['Poppins']">
-                <div className="text-teal-600 lg:text-xl md:text-lg text-base font-bold lg:leading-9 md:leading-9 leading-7 tracking-tight">
+              <div className="flex-col justify-start items-start gap-1 inline-flex font-['Poppins']">
+              <div className="text-teal-600 2xl:text-xl xl:text-xl lg:text-base md:text-lg text-base font-bold lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Real Cases, Real Projects
                 </div>
-                <div className="italic xl:w-[26rem] lg:w-96 md:w-72 w-[230px] text-neutral-500 lg:text-base md:text-xs text-xs font-normal lg:leading-7 md:leading-5 leading-5 tracking-tight">
+                <div className="italic xl:w-[26rem] lg:w-[16rem] md:w-72 w-[230px] text-neutral-500 2xl:text-base xl:text-base lg:text-xs md:text-xs text-xs font-normal 2xl:leading-7 xl:leading-7 lg:leading-5 md:leading-5 leading-5 tracking-tight">
                   Selain teori, Eduskill juga menawarkan real cases & real
                   projects guna memberikan pengalaman praktik dunia kerja yang
                   nyata.
@@ -64,7 +64,7 @@ const Marketing = () => {
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
-              className="w-full lg:h-40 md:h-28 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex"
+              className="w-full 2xl:h-40 xl:h-40 lg:h-36 md:h-28 h-32 lg:px-4 md:px-4 px-3 py-9 bg-white rounded-2xl border border-neutral-300 justify-start items-center inline-flex"
             >
               <div className="flex justify-center items-center lg:w-16 md:w-14 w-12 lg:h-16 md:h-14 h-12 lg:mr-[25px] md:mr-[25px] mr-3 bg-emerald-200 rounded-full">
                 <img
@@ -74,10 +74,10 @@ const Marketing = () => {
                 />
               </div>
               <div className="flex-col justify-start items-start gap-1 inline-flex font-['Poppins']">
-              <div className="text-teal-600 lg:text-xl md:text-lg text-base font-bold lg:leading-9 md:leading-9 leading-7 tracking-tight">
+                <div className="text-teal-600 2xl:text-xl xl:text-xl lg:text-base md:text-lg text-base font-bold lg:leading-9 md:leading-9 leading-7 tracking-tight">
                   Collaborative-Based Learning{" "}
                 </div>
-                <div className="italic xl:w-[26rem] lg:w-96 md:w-72 w-[230px] text-neutral-500 lg:text-base md:text-xs text-xs font-normal lg:leading-7 md:leading-5 leading-5 tracking-tight">
+                <div className="italic xl:w-[26rem] lg:w-[16rem] md:w-72 w-[230px] text-neutral-500 2xl:text-base xl:text-base lg:text-xs md:text-xs text-xs font-normal 2xl:leading-7 xl:leading-7 lg:leading-5 md:leading-5 leading-5 tracking-tight">
                   Kolaborasi aktif dalam simulasi nyata melalui project
                   kelompok.
                 </div>
