@@ -14,7 +14,7 @@ const Benefit = () => {
       data-aos-duration="1000"
       className="w-full section lg:my-[50px] md:my-[30px] my-5 lg:mx-auto md:mx-auto mx-auto relative"
     >
-      <div className="2xl:mx-0 xl:mx-20 lg:mx-0 md:mx-0 mx-0">
+      <div className="2xl:mx-0 xl:mx-20 lg:mx-10 md:mx-0 mx-0">
         <div className="w-full relative py-[40px] 2xl:pr-[85px] xl:pr-[60px] lg:pr-[80px] md:pr-[50px] pr-0 overflow-hidden">
           <div className="lg:visible md:visible invisible bg-teal-400 2xl:h-[45px] xl:h-[35px] lg:h-[20px] md:h-[25px] w-full rotate-[105deg] absolute z-20 2xl:left-[50%] xl:left-[43%] lg:left-[43.5%] md:left-[47%] top-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
           <div className="bg-orange-400 w-[100%] 2xl:ml-[45%] xl:ml-[38%] lg:ml-[41%] md:ml-[42%] absolute left-0 lg:top-0 md:top-0 bottom-0 lg:h-full md:h-full h-1/2 lg:-skew-x-[15deg] md:-skew-x-[15deg] -skew-x-0 z-10"></div>
@@ -120,7 +120,7 @@ const Benefit = () => {
           </div>
         </div>
 
-        <div className="2xl:visible xl:visible lg:visible md:visible invisible 2xl:w-[1575px] xl:w-[1170px] lg:w-full md:w-[815px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
+        <div className="2xl:visible xl:visible lg:visible md:visible invisible 2xl:w-[1575px] xl:w-[1170px] lg:w-[1000px] md:w-[815px] w-full lg:h-9 md:h-16 h-[250px] absolute flex justify-between items-center z-20 left-1/2 transform -translate-x-1/2 top-1/2">
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"

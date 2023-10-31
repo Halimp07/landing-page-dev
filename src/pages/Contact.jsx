@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="lg:h-72 md:h-56 h-56 py-12 flex-col justify-center items-center gap-6 inline-flex">
           <div
             data-aos="zoom-out-up"
-            className="lg:w-[830px] md:w-[600px] w-[300px] text-center text-white lg:text-4xl md:text-2xl text-base font-bold font-['Poppins'] lg:leading-10 md:leading-7 leading-7 tracking-wide relative"
+            className="2xl:w-[830px] xl:w-[830px] lg:w-[600px] md:w-[600px] w-[300px] text-center text-white 2xl:text-4xl xl:tet-4xl lg:text-3xl md:text-2xl text-base font-bold font-['Poppins'] lg:leading-10 md:leading-7 leading-7 tracking-wide relative"
           >
             Mau Request Kelas Untuk Lembaga pendidikan mu? Bisa Dong
           </div>
@@ -28,9 +28,9 @@ const Contact = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="px-6 lg:py-3 md:py-2 py-2 bg-orange-400 rounded-xl justify-center items-center lg:gap-2 md:gap-0 gap-0 inline-flex relative"
+            className="px-6 2xl:py-3 xl:py-3 lg:py-2 md:py-2 py-2 bg-orange-400 2xl:rounded-xl xl:rounded-xl lg:rounded-lg md:rounded-lg rounded-xl justify-center items-center lg:gap-2 md:gap-0 gap-0 inline-flex relative"
           >
-            <div className="text-center text-white g:text-lg md:text-base text-base font-semibold font-['Poppins'] leading-9 tracking-tight">
+            <div className="text-center text-white 2xl:text-lg xl:text-lg lg:text-base md:text-base text-base font-semibold font-['Poppins'] leading-9 tracking-tight">
               <a
                 href="https://wa.me/62895414873950"
                 target="_blank"
