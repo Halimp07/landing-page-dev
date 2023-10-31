@@ -39,7 +39,7 @@ const Bootcamp = () => {
                     className="2xl:ml-12 xl:ml-12 lg:ml-9 md:ml-8 ml-8 2xl:w-16 xl:w-16 lg:w-14 md:w-14 w-14"
                     src={boot_1}
                   />
-                  <div className="ml-[16.93px] 2xl:w-full xl:w-full lg:w-full md:w-full w-[210px] h-14 text-teal-500 2xl:text-lg xl:text-lg lg:text-base md:text-sm font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
+                  <div className="ml-[16.93px] 2xl:w-full xl:w-full lg:w-full md:w-full w-[200px] h-14 text-teal-500 2xl:text-lg xl:text-lg lg:text-base md:text-sm font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
                     Kelas Frontend Engineering
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const Bootcamp = () => {
                     className="2xl:ml-12 xl:ml-12 lg:ml-9 md:ml-8 ml-8 2xl:w-16 xl:w-16 lg:w-14 md:w-14 w-14"
                     src={boot_2}
                   />
-                  <div className="ml-[16.93px] 2xl:w-full xl:w-full lg:w-full md:w-full w-[210px] h-14 text-teal-500 2xl:text-lg xl:text-lg lg:text-base md:text-sm font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
+                  <div className="ml-[16.93px] 2xl:w-full xl:w-full lg:w-full md:w-full w-[200px] h-14 text-teal-500 2xl:text-lg xl:text-lg lg:text-base md:text-sm font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
                     Kelas Full-Stack Web Development{" "}
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const Bootcamp = () => {
                     className="2xl:ml-12 xl:ml-12 lg:ml-9 md:ml-8 ml-8 2xl:w-16 xl:w-16 lg:w-14 md:w-14 w-14"
                     src={boot_3}
                   />{" "}
-                  <div className="ml-[16.93px] 2xl:w-full xl:w-full lg:w-full md:w-full w-[210px] h-14 text-teal-500 2xl:text-lg xl:text-lg lg:text-base md:text-sm font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
+                  <div className="ml-[16.93px] 2xl:w-full xl:w-full lg:w-full md:w-full w-[200px] h-14 text-teal-500 2xl:text-lg xl:text-lg lg:text-base md:text-sm font-bold font-['Poppins'] capitalize leading-7 tracking-tight">
                     Kelas Artificial Intelligence (AI){" "}
                   </div>
                 </div>
