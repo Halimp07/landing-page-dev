@@ -87,7 +87,7 @@ const Bootcamp = () => {
                 </div>
                 <div className="2xl:ml-[31.08px] xl:ml-[31.08px] lg:ml-5 md:ml-4 ml-4 lg:mr-0 md:mr-4 mr-4 font-['Poppins'] lg:mt-[14.57px] md:mt-[14.57px] mt-0 lg:mb-[33.02px] md:mb-0 mb-0 2xl:h-28 xl:h-28 lg:h-20 md:h-20 text-neutral-700 2xl:text-base xl:text-base lg:text-sm md:text-[11px] text-xs font-light 2xl:leading-7 xl:leading-7 lg:leading-5 md:leading-5 leading-5 tracking-tight">
                   Belajar Kecerdasan buatan dari nol dengan menggunakan berbagai
-                  konsep seperti OCR, Maching Learning DLl
+                  konsep seperti OCR, Machine Learning DLl
                 </div>
               </div>
             </div>
